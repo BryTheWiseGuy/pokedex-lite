@@ -7,7 +7,7 @@
         "Height": "2' 04\"",
         "Weight": "15.2 lbs",
         "Category": "Seed",
-        "Abilities": "Overgrow",
+        "Abilities": ["Overgrow"],
         "type": ["Grass", "Poison"],
         "weaknesses": ["Fire", "Psychic", "Flying", "Ice"],
         "Evolution": "Ivysaur"
@@ -19,7 +19,7 @@
         "Height": "3' 03\"",
         "Weight": "28.7 lbs",
         "Category": "Seed",
-        "Abilities": "Overgrow",
+        "Abilities": ["Overgrow"],
         "type": ["Grass", "Poison"],
         "weaknesses": ["Fire", "Psychic", "Flying", "Ice"],
         "Evolution": "Venusaur"
@@ -31,7 +31,7 @@
         "Height": "6' 07\"",
         "Weight": "220.5 lbs",
         "Category": "Seed",
-        "Abilities": "Overgrow",
+        "Abilities": ["Overgrow"],
         "type": ["Grass", "Poison"],
         "weaknesses": ["Fire", "Psychic", "Flying", "Ice"]
       },
@@ -42,7 +42,7 @@
         "Height": "2' 00\"",
         "Weight": "18.7 lbs",
         "Category": "Lizard",
-        "Abilities": "Blaze",
+        "Abilities": ["Blaze"],
         "type": ["Fire"],
         "weaknesses": ["Water", "Ground", "Rock"]
       },
@@ -53,7 +53,7 @@
         "Height": "3' 07\"",
         "Weight": "41.9 lbs",
         "Category": "Flame",
-        "Abilities": "Blaze",
+        "Abilities": ["Blaze"],
         "type": ["Fire"],
         "weaknesses": ["Water", "Ground", "Rock"]
       },
@@ -64,168 +64,168 @@
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
-        "Abilities": "Blaze",
+        "Abilities": ["Blaze"],
         "type": ["Fire", "Flying"],
         "weaknesses": ["Water", "Ground", "Rock"]
       },
       {
         "id": 7,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Squirtle",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+        "Height": "1' 08\"",
+        "Weight": "19.8 lbs",
+        "Category": "Tiny Turtle",
+        "Abilities": ["Torrent"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 8,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Wartortle",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+        "Height": "3' 03\"",
+        "Weight": "49.6 lbs",
+        "Category": "Turtle",
+        "Abilities": ["Torrent"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 9,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Blastoise",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+        "Height": "5' 03\"",
+        "Weight": "188.5 lbs",
+        "Category": "Shellfish",
+        "Abilities": ["Torrent"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 10,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Caterpie",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+        "Height": "1' 00\"",
+        "Weight": "6.4 lbs",
+        "Category": "Worm",
+        "Abilities": ["Shield Dust"],
+        "type": ["Bug"],
+        "weaknesses": ["Fire", "Flying", "Rock"]
       },
       {
         "id": 11,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Metapod",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+        "Height": "2' 04\"",
+        "Weight": "21.8 lbs",
+        "Category": "Cocoon",
+        "Abilities": ["Shed Skin"],
+        "type": ["Bug"],
+        "weaknesses": ["Fire", "Flying", "Rock"]
       },
       {
         "id": 12,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Butterfree",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+        "Height": "3' 07\"",
+        "Weight": "70.5 lbs",
+        "Category": "Butterfly",
+        "Abilities": ["Compound Eyes"],
+        "type": ["Bug", "Flying"],
+        "weaknesses": ["Fire", "Flying", "Electric", "Ice", "Rock"]
       },
       {
         "id": 13,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Weedle",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+        "Height": "1' 00\"",
+        "Weight": "7.1 lbs",
+        "Category": "Hairy Bug",
+        "Abilities": ["Shield Dust"],
+        "type": ["Bug", "Poison"],
+        "weaknesses": ["Fire", "Psychic", "Flying", "Rock"]
       },
       {
         "id": 14,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Kakuna",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+        "Height": "2' 00\"",
+        "Weight": "22.0 lbs",
+        "Category": "Cocoon",
+        "Abilities": ["Shed Skin"],
+        "type": ["Bug", "Poison"],
+        "weaknesses": ["Fire", "Psychic", "Flying", "Rock"]
       },
       {
         "id": 15,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Beedrill",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+        "Height": "3' 03\"",
+        "Weight": "65.0 lbs",
+        "Category": "Poison Bee",
+        "Abilities": ["Swarm"],
+        "type": ["Bug", "Poison"],
+        "weaknesses": ["Fire", "Psychic", "Flying", "Rock"]
       },
       {
         "id": 16,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Pidgey",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+        "Height": "1' 00\"",
+        "Weight": "4.0 lbs",
+        "Category": "Tiny Bird",
+        "Abilities": ["Keen Eye", "Tangled Feet"],
+        "type": ["Normal", "Flying"],
+        "weaknesses": ["Electric", "Ice", "Rock"]
       },
       {
         "id": 17,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Pidgeotto",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+        "Height": "3' 07\"",
+        "Weight": "66.1 lbs",
+        "Category": "Bird",
+        "Abilities": ["Keen Eye", "Tangled Feet"],
+        "type": ["Normal", "Flying"],
+        "weaknesses": ["Electric", "Ice", "Rock"]
       },
       {
         "id": 18,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Pidgeot",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+        "Height": "4' 11\"",
+        "Weight": "87.1 lbs",
+        "Category": "Bird",
+        "Abilities": ["Keen Eye", "Tangled Feet"],
+        "type": ["Normal", "Flying"],
+        "weaknesses": ["Electric", "Ice", "Rock"]
       },
       {
         "id": 19,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Rattata",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+        "Height": "1' 00\"",
+        "Weight": "7.7 lbs",
+        "Category": "Mouse",
+        "Abilities": ["Run Away", "Guts"],
+        "type": ["Normal"],
+        "weaknesses": ["Fighting"]
       },
       {
         "id": 20,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Raticate",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+        "Height": "2' 04\"",
+        "Weight": "40.8 lbs",
+        "Category": "Mouse",
+        "Abilities": ["Run Away", "Guts"],
+        "type": ["Normal"],
+        "weaknesses": ["Fighting"]
       },
       {
         "id": 21,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Spearow",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -235,8 +235,8 @@
       },
       {
         "id": 22,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Fearow",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -246,8 +246,8 @@
       },
       {
         "id": 23,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Ekans",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -257,8 +257,8 @@
       },
       {
         "id": 24,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Arbok",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -268,8 +268,8 @@
       },
       {
         "id": 25,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Pikachu",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -279,8 +279,8 @@
       },
       {
         "id": 26,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Raichu",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -290,8 +290,8 @@
       },
       {
         "id": 27,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Sandshrew",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -301,8 +301,8 @@
       },
       {
         "id": 28,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Sandslash",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -312,8 +312,8 @@
       },
       {
         "id": 29,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Nidoran ♀",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -323,8 +323,8 @@
       },
       {
         "id": 30,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Nidorina",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -334,8 +334,8 @@
       },
       {
         "id": 31,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Nidoqueen",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -345,8 +345,8 @@
       },
       {
         "id": 32,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Nidoran ♂",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -356,8 +356,8 @@
       },
       {
         "id": 33,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Nidorino",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -367,8 +367,8 @@
       },
       {
         "id": 34,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Nidoking",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -378,8 +378,8 @@
       },
       {
         "id": 35,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Clefairy",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -389,8 +389,8 @@
       },
       {
         "id": 36,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Clefable",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -400,8 +400,8 @@
       },
       {
         "id": 37,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Vulpix",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -411,8 +411,8 @@
       },
       {
         "id": 38,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Ninetales",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -422,8 +422,8 @@
       },
       {
         "id": 39,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Jigglypuff",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -433,8 +433,8 @@
       },
       {
         "id": 40,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Wigglytuff",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -444,8 +444,8 @@
       },
       {
         "id": 41,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Zubat",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -455,8 +455,8 @@
       },
       {
         "id": 42,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Golbat",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -466,8 +466,8 @@
       },
       {
         "id": 43,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Oddish",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -477,8 +477,8 @@
       },
       {
         "id": 44,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Gloom",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -488,8 +488,8 @@
       },
       {
         "id": 45,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Vileplume",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -499,8 +499,8 @@
       },
       {
         "id": 46,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Paras",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -510,8 +510,8 @@
       },
       {
         "id": 47,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Parasect",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -521,8 +521,8 @@
       },
       {
         "id": 48,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Venonat",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -532,8 +532,8 @@
       },
       {
         "id": 49,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Venomoth",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -543,8 +543,8 @@
       },
       {
         "id": 50,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "name": "Diglett",
+        "image": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -554,7 +554,7 @@
       },
       {
         "id": 51,
-        "name": "Charizard",
+        "name": "Dugtrio",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -565,7 +565,7 @@
       },
       {
         "id": 52,
-        "name": "Charizard",
+        "name": "Meowth",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -576,7 +576,7 @@
       },
       {
         "id": 53,
-        "name": "Charizard",
+        "name": "Persian",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -587,7 +587,7 @@
       },
       {
         "id": 54,
-        "name": "Charizard",
+        "name": "Psyduck",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -598,7 +598,7 @@
       },
       {
         "id": 55,
-        "name": "Charizard",
+        "name": "Golduck",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -609,7 +609,7 @@
       },
       {
         "id": 56,
-        "name": "Charizard",
+        "name": "Mankey",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -620,7 +620,7 @@
       },
       {
         "id": 57,
-        "name": "Charizard",
+        "name": "Primeape",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -631,7 +631,7 @@
       },
       {
         "id": 58,
-        "name": "Charizard",
+        "name": "Growlith",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -642,7 +642,7 @@
       },
       {
         "id": 59,
-        "name": "Charizard",
+        "name": "Arcanine",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -653,7 +653,7 @@
       },
       {
         "id": 60,
-        "name": "Charizard",
+        "name": "Poliwag",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -664,7 +664,7 @@
       },
       {
         "id": 61,
-        "name": "Charizard",
+        "name": "Poliwhirl",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -675,7 +675,7 @@
       },
       {
         "id": 62,
-        "name": "Charizard",
+        "name": "Poliwrath",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -686,7 +686,7 @@
       },
       {
         "id": 63,
-        "name": "Charizard",
+        "name": "Abra",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -697,7 +697,7 @@
       },
       {
         "id": 64,
-        "name": "Charizard",
+        "name": "Kadabra",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -708,7 +708,7 @@
       },
       {
         "id": 65,
-        "name": "Charizard",
+        "name": "Alakazam",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -719,7 +719,7 @@
       },
       {
         "id": 66,
-        "name": "Charizard",
+        "name": "Machop",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -730,7 +730,7 @@
       },
       {
         "id": 67,
-        "name": "Charizard",
+        "name": "Machoke",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -741,7 +741,7 @@
       },
       {
         "id": 68,
-        "name": "Charizard",
+        "name": "Machamp",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -752,7 +752,7 @@
       },
       {
         "id": 69,
-        "name": "Charizard",
+        "name": "Bellsprout",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -763,7 +763,7 @@
       },
       {
         "id": 70,
-        "name": "Charizard",
+        "name": "Weepinbell",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -774,7 +774,7 @@
       },
       {
         "id": 71,
-        "name": "Charizard",
+        "name": "Victreebel",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -785,7 +785,7 @@
       },
       {
         "id": 72,
-        "name": "Charizard",
+        "name": "Tentacool",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -796,7 +796,7 @@
       },
       {
         "id": 73,
-        "name": "Charizard",
+        "name": "Tentacruel",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -807,7 +807,7 @@
       },
       {
         "id": 74,
-        "name": "Charizard",
+        "name": "Geodude",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -818,7 +818,7 @@
       },
       {
         "id": 75,
-        "name": "Charizard",
+        "name": "Graveler",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -829,7 +829,7 @@
       },
       {
         "id": 76,
-        "name": "Charizard",
+        "name": "Golem",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -840,7 +840,7 @@
       },
       {
         "id": 77,
-        "name": "Charizard",
+        "name": "Ponyta",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -851,7 +851,7 @@
       },
       {
         "id": 78,
-        "name": "Charizard",
+        "name": "Rapidash",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -862,7 +862,7 @@
       },
       {
         "id": 79,
-        "name": "Charizard",
+        "name": "Slowpoke",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -873,7 +873,7 @@
       },
       {
         "id": 80,
-        "name": "Charizard",
+        "name": "Slowbro",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -884,7 +884,7 @@
       },
       {
         "id": 81,
-        "name": "Charizard",
+        "name": "Magnemite",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -895,7 +895,7 @@
       },
       {
         "id": 82,
-        "name": "Charizard",
+        "name": "Magneton",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -906,7 +906,7 @@
       },
       {
         "id": 83,
-        "name": "Charizard",
+        "name": "Farfetch'd",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -917,7 +917,7 @@
       },
       {
         "id": 84,
-        "name": "Charizard",
+        "name": "Doduo",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -928,7 +928,7 @@
       },
       {
         "id": 85,
-        "name": "Charizard",
+        "name": "Dodrio",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -939,7 +939,7 @@
       },
       {
         "id": 86,
-        "name": "Charizard",
+        "name": "Seel",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -950,7 +950,7 @@
       },
       {
         "id": 87,
-        "name": "Charizard",
+        "name": "Dewgong",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -961,7 +961,7 @@
       },
       {
         "id": 88,
-        "name": "Charizard",
+        "name": "Grimer",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -972,7 +972,7 @@
       },
       {
         "id": 89,
-        "name": "Charizard",
+        "name": "Muk",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -983,7 +983,7 @@
       },
       {
         "id": 90,
-        "name": "Charizard",
+        "name": "Shellder",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -994,7 +994,7 @@
       },
       {
         "id": 91,
-        "name": "Charizard",
+        "name": "Cloyster",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1005,7 +1005,7 @@
       },
       {
         "id": 92,
-        "name": "Charizard",
+        "name": "Gastly",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1016,7 +1016,7 @@
       },
       {
         "id": 93,
-        "name": "Charizard",
+        "name": "Haunter",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1027,7 +1027,7 @@
       },
       {
         "id": 94,
-        "name": "Charizard",
+        "name": "Gengar",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1038,7 +1038,7 @@
       },
       {
         "id": 95,
-        "name": "Charizard",
+        "name": "Onyx",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1049,7 +1049,7 @@
       },
       {
         "id": 96,
-        "name": "Charizard",
+        "name": "Drowsy",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1060,7 +1060,7 @@
       },
       {
         "id": 97,
-        "name": "Charizard",
+        "name": "Hynpo",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1071,7 +1071,7 @@
       },
       {
         "id": 98,
-        "name": "Charizard",
+        "name": "Krabby",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1082,7 +1082,7 @@
       },
       {
         "id": 99,
-        "name": "Charizard",
+        "name": "Kingler",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1093,7 +1093,7 @@
       },
       {
         "id": 100,
-        "name": "Charizard",
+        "name": "Voltorb",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1104,7 +1104,7 @@
       },
       {
         "id": 101,
-        "name": "Charizard",
+        "name": "Electrode",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1115,7 +1115,7 @@
       },
       {
         "id": 102,
-        "name": "Charizard",
+        "name": "Exeggcute",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1126,7 +1126,7 @@
       },
       {
         "id": 103,
-        "name": "Charizard",
+        "name": "Exeggutor",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1137,7 +1137,7 @@
       },
       {
         "id": 104,
-        "name": "Charizard",
+        "name": "Cubone",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1148,7 +1148,7 @@
       },
       {
         "id": 105,
-        "name": "Charizard",
+        "name": "Marowak",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1159,7 +1159,7 @@
       },
       {
         "id": 106,
-        "name": "Charizard",
+        "name": "Hitmonlee",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1170,7 +1170,7 @@
       },
       {
         "id": 107,
-        "name": "Charizard",
+        "name": "Hitmonchan",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1181,7 +1181,7 @@
       },
       {
         "id": 108,
-        "name": "Charizard",
+        "name": "Lickitung",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1192,7 +1192,7 @@
       },
       {
         "id": 109,
-        "name": "Charizard",
+        "name": "Koffing",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1203,7 +1203,7 @@
       },
       {
         "id": 110,
-        "name": "Charizard",
+        "name": "Weezing",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1214,7 +1214,7 @@
       },
       {
         "id": 111,
-        "name": "Charizard",
+        "name": "Rhyhorn",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1225,7 +1225,7 @@
       },
       {
         "id": 112,
-        "name": "Charizard",
+        "name": "Rhydon",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1236,7 +1236,7 @@
       },
       {
         "id": 113,
-        "name": "Charizard",
+        "name": "Chansey",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1247,7 +1247,7 @@
       },
       {
         "id": 114,
-        "name": "Charizard",
+        "name": "Tangela",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1258,7 +1258,7 @@
       },
       {
         "id": 115,
-        "name": "Charizard",
+        "name": "Kangaskhan",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1269,7 +1269,7 @@
       },
       {
         "id": 116,
-        "name": "Charizard",
+        "name": "Horsea",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1280,7 +1280,7 @@
       },
       {
         "id": 117,
-        "name": "Charizard",
+        "name": "Seadra",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1291,7 +1291,7 @@
       },
       {
         "id": 118,
-        "name": "Charizard",
+        "name": "Goldeen",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1302,7 +1302,7 @@
       },
       {
         "id": 119,
-        "name": "Charizard",
+        "name": "Seaking",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1313,7 +1313,7 @@
       },
       {
         "id": 120,
-        "name": "Charizard",
+        "name": "Staryu",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1324,7 +1324,7 @@
       },
       {
         "id": 121,
-        "name": "Charizard",
+        "name": "Starmie",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1335,7 +1335,7 @@
       },
       {
         "id": 122,
-        "name": "Charizard",
+        "name": "Mr. Mime",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1346,7 +1346,7 @@
       },
       {
         "id": 123,
-        "name": "Charizard",
+        "name": "Scyther",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1357,7 +1357,7 @@
       },
       {
         "id": 124,
-        "name": "Charizard",
+        "name": "Jynx",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1368,7 +1368,7 @@
       },
       {
         "id": 125,
-        "name": "Charizard",
+        "name": "Electabuzz",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1379,7 +1379,7 @@
       },
       {
         "id": 126,
-        "name": "Charizard",
+        "name": "Magmar",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1390,7 +1390,7 @@
       },
       {
         "id": 127,
-        "name": "Charizard",
+        "name": "Pinsir",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1401,7 +1401,7 @@
       },
       {
         "id": 128,
-        "name": "Charizard",
+        "name": "Tauros",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1412,7 +1412,7 @@
       },
       {
         "id": 129,
-        "name": "Charizard",
+        "name": "Magikarp",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1423,7 +1423,7 @@
       },
       {
         "id": 130,
-        "name": "Charizard",
+        "name": "Gyarados",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1434,7 +1434,7 @@
       },
       {
         "id": 131,
-        "name": "Charizard",
+        "name": "Lapras",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1445,7 +1445,7 @@
       },
       {
         "id": 132,
-        "name": "Charizard",
+        "name": "Ditto",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1456,7 +1456,7 @@
       },
       {
         "id": 133,
-        "name": "Charizard",
+        "name": "Eevee",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1467,7 +1467,7 @@
       },
       {
         "id": 134,
-        "name": "Charizard",
+        "name": "Vaporeon",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1478,7 +1478,7 @@
       },
       {
         "id": 135,
-        "name": "Charizard",
+        "name": "Jolteon",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1489,7 +1489,7 @@
       },
       {
         "id": 136,
-        "name": "Charizard",
+        "name": "Flareon",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1500,7 +1500,7 @@
       },
       {
         "id": 137,
-        "name": "Charizard",
+        "name": "Porygon",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1511,7 +1511,7 @@
       },
       {
         "id": 138,
-        "name": "Charizard",
+        "name": "Omanyte",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1522,7 +1522,7 @@
       },
       {
         "id": 139,
-        "name": "Charizard",
+        "name": "Omastar",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1533,7 +1533,7 @@
       },
       {
         "id": 140,
-        "name": "Charizard",
+        "name": "Kabuto",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1544,7 +1544,7 @@
       },
       {
         "id": 141,
-        "name": "Charizard",
+        "name": "Kabutops",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1555,7 +1555,7 @@
       },
       {
         "id": 142,
-        "name": "Charizard",
+        "name": "Aerodactyl",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1566,7 +1566,7 @@
       },
       {
         "id": 143,
-        "name": "Charizard",
+        "name": "Snorlax",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1577,7 +1577,7 @@
       },
       {
         "id": 144,
-        "name": "Charizard",
+        "name": "Articuno",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1588,7 +1588,7 @@
       },
       {
         "id": 145,
-        "name": "Charizard",
+        "name": "Zapdos",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1599,7 +1599,7 @@
       },
       {
         "id": 146,
-        "name": "Charizard",
+        "name": "Moltres",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1610,7 +1610,7 @@
       },
       {
         "id": 147,
-        "name": "Charizard",
+        "name": "Dratini",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1621,7 +1621,7 @@
       },
       {
         "id": 148,
-        "name": "Charizard",
+        "name": "Dragonair",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1632,7 +1632,7 @@
       },
       {
         "id": 149,
-        "name": "Charizard",
+        "name": "Dragonite",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1643,7 +1643,7 @@
       },
       {
         "id": 150,
-        "name": "Charizard",
+        "name": "Mewtwo",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
@@ -1654,18 +1654,7 @@
       },
       {
         "id": 151,
-        "name": "Charizard",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
-      },
-      {
-        "id": 152,
-        "name": "Charizard",
+        "name": "Mew",
         "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
