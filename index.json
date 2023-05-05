@@ -905,308 +905,308 @@
       {
         "id": 76,
         "name": "Golem",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
+        "description": "Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it's exposed to air.",
+        "Height": "4' 07\"",
+        "Weight": "661.4 lbs",
+        "Category": "Megaton",
+        "Abilities": ["Rock Head", "Sturdy"],
+        "type": ["Rock", "Ground"],
+        "weaknesses": ["Steel", "Fighting", "Water", "Ice", "Grass", "Ground"]
       },
       {
         "id": 77,
         "name": "Ponyta",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
+        "description": "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
+        "Height": "3' 03\"",
+        "Weight": "66.1 lbs",
+        "Category": "Fire Horse",
+        "Abilities": ["Run Away", "Flash Fire"],
+        "type": ["Fire"],
         "weaknesses": ["Water", "Ground", "Rock"]
       },
       {
         "id": 78,
         "name": "Rapidash",
-        "image": "",
-        "description": "",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
+        "description": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
         "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
+        "Weight": "209.4 lbs",
+        "Category": "Fire Horse",
+        "Abilities": ["Run Away", "Flash Fire"],
+        "type": ["Fire"],
         "weaknesses": ["Water", "Ground", "Rock"]
       },
       {
         "id": 79,
         "name": "Slowpoke",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
+        "description": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+        "Height": "3' 11\"",
+        "Weight": "79.4 lbs",
+        "Category": "Dopey",
+        "Abilities": ["Oblivious", "Own Tempo"],
+        "type": ["Water", "Psychic"],
+        "weaknesses": ["Ghost", "Dark", "Grass", "Electric", "Bug"]
       },
       {
         "id": 80,
         "name": "Slowbro",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
+        "description": "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
+        "Height": "5' 03\"",
+        "Weight": "173.1 lbs",
+        "Category": "Hermit Crab",
+        "Abilities": ["Oblivious", "Own Tempo"],
+        "type": ["Water", "Psychic"],
+        "weaknesses": ["Ghost", "Dark", "Grass", "Electric", "Bug"]
       },
       {
         "id": 81,
         "name": "Magnemite",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+        "description": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+        "Height": "1' 00\"",
+        "Weight": "13.2 lbs",
+        "Category": "Magnet",
+        "Abilities": ["Sturdy", "Magnet Pull"],
+        "type": ["Electric", "Steel"],
+        "weaknesses": ["Fire", "Fighting", "Ground"]
       },
       {
         "id": 82,
         "name": "Magneton",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
+        "description": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+        "Height": "3' 03\"",
+        "Weight": "132.3 lbs",
+        "Category": "Magnet",
+        "Abilities": ["Sturdy", "Magnet Pull"],
+        "type": ["Electric", "Steel"],
+        "weaknesses": ["Fire", "Fighting", "Ground"]
       },
       {
         "id": 83,
         "name": "Farfetch'd",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
+        "description": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+        "Height": "2' 07\"",
+        "Weight": "33.1 lbs",
+        "Category": "Wild Duck",
+        "Abilities": ["Keen Eye", "Inner Focus"],
+        "type": ["Normal", "Flying"],
+        "weaknesses": ["Electric", "Ice", "Rock"]
       },
       {
         "id": 84,
         "name": "Doduo",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
+        "description": "Its short wings make flying difficult. Instead, this Pokémon runs at high speed on developed legs.",
+        "Height": "4' 07\"",
+        "Weight": "86.4 lbs",
+        "Category": "Twin Bird",
+        "Abilities": ["Run Away", "Early Bird"],
+        "type": ["Normal", "Flying"],
+        "weaknesses": ["Water", "Ice", "Rock"]
       },
       {
         "id": 85,
         "name": "Dodrio",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
+        "description": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
+        "Height": "5' 11\"",
+        "Weight": "187.8 lbs",
+        "Category": "Triple Bird",
+        "Abilities": ["Run Away", "Early Bird"],
+        "type": ["Normal", "Flying"],
+        "weaknesses": ["Water", "Ice", "Rock"]
       },
       {
         "id": 86,
         "name": "Seel",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
+        "description": "Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit.",
+        "Height": "3' 07\"",
+        "Weight": "198.4 lbs",
+        "Category": "Sea Lion",
+        "Abilities": ["Thick Fat", "Hydration"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 87,
         "name": "Dewgong",
-        "image": "",
-        "description": "",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
+        "description": "Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters.",
         "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "Weight": "264.6 lbs",
+        "Category": "Sea Lion",
+        "Abilities": ["Thick Fat", "Hydration"],
+        "type": ["Water", "Ice"],
+        "weaknesses": ["Grass", "Electric", "Fighting", "Rock"]
       },
       {
         "id": 88,
         "name": "Grimer",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
+        "description": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+        "Height": "2' 11\"",
+        "Weight": "66.1 lbs",
+        "Category": "Sludge",
+        "Abilities": ["Stench", "Sticky Hold"],
+        "type": ["Poison"],
+        "weaknesses": ["Psychic", "Ground"]
       },
       {
         "id": 89,
         "name": "Muk",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
+        "description": "It’s thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+        "Height": "3' 11\"",
+        "Weight": "66.1 lbs",
+        "Category": "Sludge",
+        "Abilities": ["Stench", "Sticky Hold"],
+        "type": ["Poison"],
+        "weaknesses": ["Psychic", "Ground"]
       },
       {
         "id": 90,
         "name": "Shellder",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
+        "description": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
+        "Height": "1' 00\"",
+        "Weight": "8.8 lbs",
+        "Category": "Bivalve",
+        "Abilities": ["Shell Armor", "Skill Link"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 91,
         "name": "Cloyster",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
+        "description": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+        "Height": "4' 11\"",
+        "Weight": "292.1 lbs",
+        "Category": "Bivalve",
+        "Abilities": ["Shell Armor", "Skill Link"],
+        "type": ["Water", "Ice"],
+        "weaknesses": ["Grass", "Electric", "Fighting", "Rock"]
       },
       {
         "id": 92,
         "name": "Gastly",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
+        "description": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+        "Height": "4' 03\"",
+        "Weight": "0.2 lbs",
+        "Category": "Gas",
+        "Abilities": ["Levitate"],
+        "type": ["Ghost", "Poison"],
+        "weaknesses": ["Ghost", "Dark", "Psychic", "Ground"]
       },
       {
         "id": 93,
         "name": "Haunter",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
+        "description": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+        "Height": "5' 03\"",
+        "Weight": "0.2 lbs",
+        "Category": "Gas",
+        "Abilities": ["Levitate"],
+        "type": ["Ghost", "Poison"],
+        "weaknesses": ["Ghost", "Dark", "Psychic", "Ground"]
       },
       {
         "id": 94,
         "name": "Gengar",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+        "description": "To steal the life of its target, it slips into the prey’s shadow and silently waits for an opportunity.",
+        "Height": "4' 11\"",
+        "Weight": "89.3 lbs",
+        "Category": "Shadow",
+        "Abilities": ["Cursed Body"],
+        "type": ["Ghost", "Poison"],
+        "weaknesses": ["Ghost", "Dark", "Psychic", "Ground"]
       },
       {
         "id": 95,
-        "name": "Onyx",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Onix",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
+        "description": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+        "Height": "28' 10\"",
+        "Weight": "463.0 lbs",
+        "Category": "Rock Snake",
+        "Abilities": ["Rock Head", "Sturdy"],
+        "type": ["Rock", "Ground"],
+        "weaknesses": ["Steel", "Fighting", "Water", "Ice", "Grass", "Ground"]
       },
       {
         "id": 96,
-        "name": "Drowsy",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "name": "Drowzee",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
+        "description": "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
+        "Height": "3' 03\"",
+        "Weight": "71.4 lbs",
+        "Category": "Hypnosis",
+        "Abilities": ["Insomnia", "Forewarn"],
+        "type": ["Psychic"],
+        "weaknesses": ["Ghost", "Dark", "Bug"]
       },
       {
         "id": 97,
         "name": "Hynpo",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
+        "description": "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
+        "Height": "5' 03\"",
+        "Weight": "166.7 lbs",
+        "Category": "Hypnosis",
+        "Abilities": ["Insomnia", "Forewarn"],
+        "type": ["Psychic"],
+        "weaknesses": ["Ghost", "Dark", "Bug"]
       },
       {
         "id": 98,
         "name": "Krabby",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
+        "description": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
+        "Height": "1' 04\"",
+        "Weight": "14.3 lbs",
+        "Category": "River Crab",
+        "Abilities": ["Shell Armor", "Hyper Cutter"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 99,
         "name": "Kingler",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
+        "description": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+        "Height": "4' 03\"",
+        "Weight": "132.3 lbs",
+        "Category": "Pincer",
+        "Abilities": ["Shell Armor", "Hyper Cutter"],
+        "type": ["Water"],
+        "weaknesses": ["Grass", "Electric"]
       },
       {
         "id": 100,
         "name": "Voltorb",
-        "image": "",
-        "description": "",
-        "Height": "5' 07\"",
-        "Weight": "199.5 lbs",
-        "Category": "Flame",
-        "Abilities": "Blaze",
-        "type": ["Fire", "Flying"],
-        "weaknesses": ["Water", "Ground", "Rock"]
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
+        "description": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+        "Height": "1' 08\"",
+        "Weight": "22.9 lbs",
+        "Category": "Ball",
+        "Abilities": ["Static", "Soundproof"],
+        "type": ["Electric"],
+        "weaknesses": ["Ground"]
       },
       {
         "id": 101,
         "name": "Electrode",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1217,8 +1217,8 @@
       {
         "id": 102,
         "name": "Exeggcute",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1229,8 +1229,8 @@
       {
         "id": 103,
         "name": "Exeggutor",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1241,8 +1241,8 @@
       {
         "id": 104,
         "name": "Cubone",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1253,8 +1253,8 @@
       {
         "id": 105,
         "name": "Marowak",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1265,8 +1265,8 @@
       {
         "id": 106,
         "name": "Hitmonlee",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1277,8 +1277,8 @@
       {
         "id": 107,
         "name": "Hitmonchan",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1289,8 +1289,8 @@
       {
         "id": 108,
         "name": "Lickitung",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1301,8 +1301,8 @@
       {
         "id": 109,
         "name": "Koffing",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1313,8 +1313,8 @@
       {
         "id": 110,
         "name": "Weezing",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1325,8 +1325,8 @@
       {
         "id": 111,
         "name": "Rhyhorn",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1337,8 +1337,8 @@
       {
         "id": 112,
         "name": "Rhydon",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1349,8 +1349,8 @@
       {
         "id": 113,
         "name": "Chansey",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1361,8 +1361,8 @@
       {
         "id": 114,
         "name": "Tangela",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1373,8 +1373,8 @@
       {
         "id": 115,
         "name": "Kangaskhan",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1385,8 +1385,8 @@
       {
         "id": 116,
         "name": "Horsea",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1397,8 +1397,8 @@
       {
         "id": 117,
         "name": "Seadra",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1409,8 +1409,8 @@
       {
         "id": 118,
         "name": "Goldeen",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1421,8 +1421,8 @@
       {
         "id": 119,
         "name": "Seaking",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1433,8 +1433,8 @@
       {
         "id": 120,
         "name": "Staryu",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1445,8 +1445,8 @@
       {
         "id": 121,
         "name": "Starmie",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1457,8 +1457,8 @@
       {
         "id": 122,
         "name": "Mr. Mime",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1469,8 +1469,8 @@
       {
         "id": 123,
         "name": "Scyther",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1481,8 +1481,8 @@
       {
         "id": 124,
         "name": "Jynx",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1493,8 +1493,8 @@
       {
         "id": 125,
         "name": "Electabuzz",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1505,8 +1505,8 @@
       {
         "id": 126,
         "name": "Magmar",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1517,8 +1517,8 @@
       {
         "id": 127,
         "name": "Pinsir",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1529,8 +1529,8 @@
       {
         "id": 128,
         "name": "Tauros",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1541,8 +1541,8 @@
       {
         "id": 129,
         "name": "Magikarp",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1553,8 +1553,8 @@
       {
         "id": 130,
         "name": "Gyarados",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1565,8 +1565,8 @@
       {
         "id": 131,
         "name": "Lapras",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1577,8 +1577,8 @@
       {
         "id": 132,
         "name": "Ditto",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1589,8 +1589,8 @@
       {
         "id": 133,
         "name": "Eevee",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1601,8 +1601,8 @@
       {
         "id": 134,
         "name": "Vaporeon",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1613,8 +1613,8 @@
       {
         "id": 135,
         "name": "Jolteon",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1625,8 +1625,8 @@
       {
         "id": 136,
         "name": "Flareon",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1637,8 +1637,8 @@
       {
         "id": 137,
         "name": "Porygon",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1649,8 +1649,8 @@
       {
         "id": 138,
         "name": "Omanyte",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1661,8 +1661,8 @@
       {
         "id": 139,
         "name": "Omastar",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1673,8 +1673,8 @@
       {
         "id": 140,
         "name": "Kabuto",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1685,8 +1685,8 @@
       {
         "id": 141,
         "name": "Kabutops",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1697,8 +1697,8 @@
       {
         "id": 142,
         "name": "Aerodactyl",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1709,8 +1709,8 @@
       {
         "id": 143,
         "name": "Snorlax",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1721,8 +1721,8 @@
       {
         "id": 144,
         "name": "Articuno",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1733,8 +1733,8 @@
       {
         "id": 145,
         "name": "Zapdos",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1745,8 +1745,8 @@
       {
         "id": 146,
         "name": "Moltres",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1757,8 +1757,8 @@
       {
         "id": 147,
         "name": "Dratini",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1769,8 +1769,8 @@
       {
         "id": 148,
         "name": "Dragonair",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1781,8 +1781,8 @@
       {
         "id": 149,
         "name": "Dragonite",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1793,8 +1793,8 @@
       {
         "id": 150,
         "name": "Mewtwo",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
@@ -1805,8 +1805,8 @@
       {
         "id": 151,
         "name": "Mew",
-        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
-
+        "image": "",
+        "description": "",
         "Height": "5' 07\"",
         "Weight": "199.5 lbs",
         "Category": "Flame",
