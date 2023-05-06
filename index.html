@@ -11,30 +11,31 @@
 <body>
     <header>
         <section id="logoContainer" class="logos">
-            <div id="pokedexLogo" class="logos">
-                <img>
-            </div>
-            <div id="indigoLeagueLogo" class="logos">
-                <img>
+            <div id="logos" class="logos">
+                <div id="pokedexLogo" class="logos">
+                    <img src="https://camo.githubusercontent.com/7f1f1e69bef239378a28e8aca7d1d7bd0890d37a7871d01135e2d044da6e2157/68747470733a2f2f692e696d6775722e636f6d2f415975745a4f462e706e67">
+                </div>
+                <div id="indigoLeagueLogo" class="logos">
+                    <img src="https://static.wikia.nocookie.net/mudae/images/a/a0/Pokemon_Indigo_League_Logo.png/revision/latest?cb=20201124183104">
+                </div>
             </div>
         </section>
     </header>
     <main>
         <section id="pokedexInterface" class="interface">
-            <div id="pokemonCard" class="card">
-                <li id="pokemonType" class="card">
-                    <button id="typeButton" class="button" title="non-purpose"></button>
-                </li>
-            </div>
+            <div id="pokemonCard" class="card"></div>
             <form id="pokemonSearch" class="form">
-                <button id="searchButton" class="button"></button>
+                <button id="searchButton" class="button">Search</button>
+                <button id="addButton" class="button">Add</button>
                 <select id="pokemonSelect" class="select">
-                    <option></option>
+                    <option value="default" disabled selected>Please choose a Pokemon!</option>
                 </select>
             </form>
         </section>
         <section id="collectionInterface" class="interface">
-            <div></div>
+            <div id="collectionList">
+
+            </div>
         </section>
     </main>
 </body>
