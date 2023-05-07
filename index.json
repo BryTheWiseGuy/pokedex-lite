@@ -8,10 +8,12 @@
         "height": "2' 04\"",
         "weight": "15.2 lbs",
         "category": "Seed",
-        "abilities": ["Overgrow"],
+        "abilities": {
+            "name": "Overgrow",
+            "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+        },
         "type": ["Grass", "Poison"],
-        "weaknesses": ["Fire", "Psychic", "Flying", "Ice"],
-        "Evolution": "Ivysaur"
+        "weaknesses": ["Fire", "Psychic", "Flying", "Ice"]
       },
       {
         "id": 2,
@@ -23,8 +25,7 @@
         "category": "Seed",
         "abilities": ["Overgrow"],
         "type": ["Grass", "Poison"],
-        "weaknesses": ["Fire", "Psychic", "Flying", "Ice"],
-        "Evolution": "Venusaur"
+        "weaknesses": ["Fire", "Psychic", "Flying", "Ice"]
       },
       {
         "id": 3,
