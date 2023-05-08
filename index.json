@@ -3199,27 +3199,6 @@
     }
   ],
   "collection": [
-    {
-      "id": 152,
-      "name": "Bulbusaur",
-      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
-      "description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
-      "height": "2' 04\"",
-      "weight": "15.2 lbs",
-      "category": "Seed",
-      "abilities": [
-        "Overgrow"
-      ],
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "weaknesses": [
-        "Fire",
-        "Psychic",
-        "Flying",
-        "Ice"
-      ]
-    }
+
   ]
 }

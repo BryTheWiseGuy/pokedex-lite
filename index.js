@@ -1,82 +1,61 @@
 document.addEventListener('DOMContentLoaded', (e) => {
     e.preventDefault();
-    createPokemonSelection();
-    let selectCard = document.querySelector('#searchButton')
-    let addCard = document.querySelector('#addButton');
-    selectCard.addEventListener('click', (e) => {
-      e.preventDefault();
-      fetch('http://localhost:3000/pokemon')
+    fetch('http://localhost:3000/pokemon')
         .then(res => res.json())
         .then(data => {
+            createPokemonSelection(data);
+            renderPokemonSelection(data);
+            document.querySelector('#addButton').addEventListener('click', (e) => {
+                e.preventDefault();
+                addPokemon(data);
+            })
+    })
+
+    function createCollectionCard(pokemonObj) {
+        fetch('http://localhost:3000/collection', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(pokemonObj)
+        })
+    }
+
+    function renderPokemonSelection (data) {
+        let selectCard = document.querySelector('#searchButton')
+        selectCard.addEventListener('click', (e) => {
+            e.preventDefault();
             renderCard(data);
             renderStats(data);
         })
-    })
-    addCard.addEventListener('click', (e) => {
-        e.preventDefault();
-        handleAddCard();
-    })
+    }
 
-    function addPokemon(collection) {
+    function addPokemon(data) {
+        let highestId = Math.max(...data.map(pokemon => pokemon.id));
         let interface = document.querySelector('#collectionInterface');
         let selectedPokemon = document.querySelector('#pokemonSelect').value;
-        collection.forEach(pokemon => {
+        data.forEach(pokemon => {
+            let pokemonObj = {...pokemon};
+            highestId += 1;
+            pokemonObj.id = highestId;
             if (pokemon.name === selectedPokemon) {
-                let collectedCard = document.createElement('div');
-                let pokemonTypeContainer = document.createElement('div');
-                let pokemonImage = document.createElement('img');
-                let pokemonName = document.createElement('h3');
-                collectedCard.id = 'pokemonCard';
-                pokemonTypeContainer.id = 'pokemonType';
-                pokemonImage.src = pokemon.image;
-                pokemonName.innerText = pokemon.name;
-                collectedCard.appendChild(pokemonImage);
-                collectedCard.appendChild(pokemonName);
-                collectedCard.appendChild(pokemonTypeContainer);
-                // createTypeButtons(data);
+                let originalCard = document.querySelector('#pokemonCard');
+                let collectedCard = originalCard.cloneNode(true);
+                collectedCard.id = 'collectedCard';
                 interface.appendChild(collectedCard);
+                createCollectionCard(pokemonObj);
             }
         })
     }
-
-    let highestId = 151
-    function handleAddCard() {
-        fetch('http://localhost:3000/pokemon')
-        .then(res => res.json())
-        .then(data => {
-            let pokemonObj = data.find(pokemon => pokemon.name === document.querySelector('#pokemonSelect').value);
-            pokemonObj.id = highestId += 1;
-            fetch('http://localhost:3000/collection', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(pokemonObj)
-            })
-            .then(() => {
-                fetch('http://localhost:3000/collection')
-                .then(res => res.json())
-                .then(data => {
-                    addPokemon(data);
-                })
-            })
-        })
-    }
-    
-    
   
-    function createPokemonSelection() {
-        fetch('http://localhost:3000/pokemon')
-        .then(res => res.json())
-        .then(data => {
-            data.forEach((pokemon) => {
+    function createPokemonSelection(data) {
+        data.forEach((pokemon) => {
             let pokemonSelection = document.querySelector('#pokemonSelect');
             let option = document.createElement('option');
             option.innerText = pokemon.name;
             pokemonSelection.appendChild(option);
-            });
         });
-    }
+    };
 
     function createTypeButtons(data) {
         let selectedPokemon = document.querySelector('#pokemonSelect');
