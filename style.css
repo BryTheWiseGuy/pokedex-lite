@@ -186,6 +186,7 @@ body {
   }
 
   #pokemonStats h4 {
+    font-size: 14px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -212,7 +213,7 @@ body {
     background-color: rgb(37, 123, 165);
     font-family: 'Flexo-Heavy', sans-serif;
     width: flex;
-    height: 18px;
+    height: 22px;
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 1);
@@ -250,6 +251,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    font-size: 14px;
     margin: 10px;
     margin-top: 10px;
   }

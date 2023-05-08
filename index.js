@@ -136,12 +136,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
                 pokemonAbilityContainer.appendChild(abilityButton);
                 abilityInfoBox.appendChild(abilityInfo);
                 pokemonAbilityContainer.appendChild(abilityInfoBox);
-                abilityButton.addEventListener('click', (e) => {
+                abilityButton.addEventListener('mouseover', (e) => {
                     overlay.style.display = 'block';
                     abilityInfoBox.style.display = 'block';
                     e.stopPropagation();
                 })
-                window.addEventListener('click', () => {
+                abilityButton.addEventListener('mouseout', () => {
                     overlay.style.display = 'none';
                     abilityInfoBox.style.display = 'none';
                 });
