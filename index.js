@@ -1,41 +1,80 @@
 document.addEventListener('DOMContentLoaded', (e) => {
     e.preventDefault();
     createPokemonSelection();
-    let selectedCard = document.querySelector('#searchButton')
-    selectedCard.addEventListener('click', (e) => {
+    let selectCard = document.querySelector('#searchButton')
+    let addCard = document.querySelector('#addButton');
+    selectCard.addEventListener('click', (e) => {
       e.preventDefault();
       fetch('http://localhost:3000/pokemon')
         .then(res => res.json())
         .then(data => {
-          renderCard(data);
-          renderStats(data);
-          addPokemon();
+            renderCard(data);
+            renderStats(data);
         })
-        .catch(error => console.error(error));
     })
-  
-    function createPokemonSelection() {
-      fetch('http://localhost:3000/pokemon')
+    addCard.addEventListener('click', (e) => {
+        e.preventDefault();
+        handleAddCard();
+    })
+
+    function addPokemon(collection) {
+        let interface = document.querySelector('#collectionInterface');
+        let selectedPokemon = document.querySelector('#pokemonSelect').value;
+        collection.forEach(pokemon => {
+            if (pokemon.name === selectedPokemon) {
+                let collectedCard = document.createElement('div');
+                let pokemonTypeContainer = document.createElement('div');
+                let pokemonImage = document.createElement('img');
+                let pokemonName = document.createElement('h3');
+                collectedCard.id = 'pokemonCard';
+                pokemonTypeContainer.id = 'pokemonType';
+                pokemonImage.src = pokemon.image;
+                pokemonName.innerText = pokemon.name;
+                collectedCard.appendChild(pokemonImage);
+                collectedCard.appendChild(pokemonName);
+                collectedCard.appendChild(pokemonTypeContainer);
+                // createTypeButtons(data);
+                interface.appendChild(collectedCard);
+            }
+        })
+    }
+
+    let highestId = 151
+    function handleAddCard() {
+        fetch('http://localhost:3000/pokemon')
         .then(res => res.json())
         .then(data => {
-          data.forEach((pokemon) => {
+            let pokemonObj = data.find(pokemon => pokemon.name === document.querySelector('#pokemonSelect').value);
+            pokemonObj.id = highestId += 1;
+            fetch('http://localhost:3000/collection', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(pokemonObj)
+            })
+            .then(() => {
+                fetch('http://localhost:3000/collection')
+                .then(res => res.json())
+                .then(data => {
+                    addPokemon(data);
+                })
+            })
+        })
+    }
+    
+    
+  
+    function createPokemonSelection() {
+        fetch('http://localhost:3000/pokemon')
+        .then(res => res.json())
+        .then(data => {
+            data.forEach((pokemon) => {
             let pokemonSelection = document.querySelector('#pokemonSelect');
             let option = document.createElement('option');
             option.innerText = pokemon.name;
             pokemonSelection.appendChild(option);
-          });
-        });
-    }
-
-    function addPokemon() {
-        let collection = document.querySelector('#collectionInterface');
-        let addButton = document.querySelector('#addButton');
-        let pokemonCard = document.querySelector('#pokemonCard');
-        let collectedCard = pokemonCard.cloneNode(true);
-        collectedCard.id = 'collectedCard';
-        addButton.addEventListener('click', (e) => {
-            e.preventDefault();
-            collection.appendChild(collectedCard);
+            });
         });
     }
 
@@ -45,15 +84,15 @@ document.addEventListener('DOMContentLoaded', (e) => {
         let types = ['Grass', 'Fire', 'Water', 'Electric', 'Normal', 'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel', 'Psychic', 'Ice', 'Dragon', 'Dark', 'Fairy'];
         let selectedPokemonType = data.find(pokemon => pokemon.name === selectedPokemon.value).type;
         for (let i = 0; i < types.length; i++) {
-          if (selectedPokemonType.includes(types[i])) {
+            if (selectedPokemonType.includes(types[i])) {
             const typeButton = document.createElement('button');
             typeButton.innerText = types[i];
             typeButton.classList.add(types[i]);
             pokemonTypeContainer.appendChild(typeButton);
-          }
+            }
         }
-      }
-  
+        }
+
     function renderCard(data) {
         resetCard();
         resetStats();
@@ -137,12 +176,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
         let weaknesses = ['Grass', 'Fire', 'Water', 'Electric', 'Normal', 'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel', 'Psychic', 'Ice', 'Dragon', 'Dark', 'Fairy'];
         let selectedPokemonWeakness = data.find(pokemon => pokemon.name === selectedPokemon.value).weaknesses;
         for (let i = 0; i < weaknesses.length; i++) {
-          if (selectedPokemonWeakness.includes(weaknesses[i])) {
+            if (selectedPokemonWeakness.includes(weaknesses[i])) {
             const weaknessButton = document.createElement('button');
             weaknessButton.innerText = weaknesses[i];
             weaknessButton.classList.add(weaknesses[i]);
             pokemonWeaknessContainer.appendChild(weaknessButton);
-          }
+            }
         }
     }
 
@@ -160,11 +199,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
             originalStats.removeChild(originalStats.firstChild);
         }
     }
-  
+
     function resetCard() {
         const originalCard = document.querySelector('#pokemonCard');
         while (originalCard.firstChild) {
             originalCard.removeChild(originalCard.firstChild);
         }
     }
-  })
+})
