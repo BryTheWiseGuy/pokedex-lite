@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
         .then(data => {
           renderCard(data);
           renderStats(data);
+          addPokemon();
         })
         .catch(error => console.error(error));
     })
@@ -22,8 +23,20 @@ document.addEventListener('DOMContentLoaded', (e) => {
             let option = document.createElement('option');
             option.innerText = pokemon.name;
             pokemonSelection.appendChild(option);
-          })
-        })
+          });
+        });
+    }
+
+    function addPokemon() {
+        let collection = document.querySelector('#collectionInterface');
+        let addButton = document.querySelector('#addButton');
+        let pokemonCard = document.querySelector('#pokemonCard');
+        let collectedCard = pokemonCard.cloneNode(true);
+        collectedCard.id = 'collectedCard';
+        addButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            collection.appendChild(collectedCard);
+        });
     }
 
     function createTypeButtons(data) {
@@ -90,21 +103,21 @@ document.addEventListener('DOMContentLoaded', (e) => {
         let pokemonAbilityContainer = document.querySelector('#pokemonAbilities');
         let abilities = [...new Set(data.map(pokemon => pokemon.abilities).flat())];
         let selectedPokemonAbilities = data.find(pokemon => pokemon.name === selectedPokemon.value).abilities;
-        let abilityInfoBox = document.createElement('div');
         let overlay = document.createElement('div');
-        let abilityInfo = document.createElement('p');
         overlay.id = 'overlay';
-        abilityInfoBox.id = 'infoBox';
-        abilityInfoBox.appendChild(abilityInfo);
-        pokemonAbilityContainer.appendChild(abilityInfoBox);
         pokemonAbilityContainer.appendChild(overlay);
         for (let i = 0; i < abilities.length; i++) {
             if (selectedPokemonAbilities.includes(abilities[i])) {
                 let abilityButton = document.createElement('button');
-                abilityInfo.innerText = data.find(pokemon => pokemon.name === selectedPokemon.value).abilities[i];
+                let abilityInfoBox = document.createElement('div');
+                let abilityInfo = document.createElement('p');
+                abilityInfo.innerText = abilities[i];
                 abilityButton.innerText = abilities[i];
+                abilityInfoBox.id = 'infoBox';
                 abilityButton.id = 'abilityButton';
                 pokemonAbilityContainer.appendChild(abilityButton);
+                abilityInfoBox.appendChild(abilityInfo);
+                pokemonAbilityContainer.appendChild(abilityInfoBox);
                 abilityButton.addEventListener('click', (e) => {
                     overlay.style.display = 'block';
                     abilityInfoBox.style.display = 'block';

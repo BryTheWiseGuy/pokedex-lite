@@ -2,7 +2,6 @@
     font-family: 'Flexo-Heavy';
     src: url(Fonts/Flexo-Heavy.woff);
   }
-  
 
 * {
     margin: 0;
@@ -20,22 +19,40 @@ body {
   }
 
   #pokedexLogo {
-    position: absolute;
-    display: flex;
+    position: fixed;
     justify-content: center;
-    top: 22%
   }
 
   #pokedexLogo img {
+    position: fixed;
     max-height: 300px;
     max-width: 600px;
+    top: 7vh;
+    left: 31.75%;
+    size: 1%;
   }
 
-  #indigoLeagueLogo {
+  #liteLogo {
     position: absolute;
-    size-adjust: 2%;
-    top: 3%;
-    margin-left: 0%;
+    font-size: 108px;
+    color: white;
+    top: 6.5vh;
+    left: 58.75%;
+    text-shadow: 0 0 5px #fff, 
+               0 0 10px #fff, 
+               0 0 15px #fff, 
+               0 0 20px #00bfff, 
+               0 0 35px #00bfff, 
+               0 0 40px #00bfff, 
+               0 0 50px #00bfff, 
+               0 0 75px #00bfff;
+  }
+
+  #pokedexContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20vh
   }
 
   #pokedex {
@@ -49,7 +66,6 @@ body {
   }
 
   #pokedexInterface {
-    position: center;
     background-image: URL(https://e0.pxfuel.com/wallpapers/269/183/desktop-wallpaper-rotom-pokedex-background.jpg);
     background-size: 702px 402px;
     background-position: 0px -1px;
@@ -104,11 +120,10 @@ body {
     border-radius: 10px / 10px;
     padding: 0px 10px;
     border: none;
-    border-radius: 10px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 1);
     height: 20px;
     line-height: 20px;
-    width: 140px;
+    width: 210px;
     left: 110px;
     bottom: 5px;
     z-index: 100;
@@ -206,15 +221,15 @@ body {
   }
 
   #overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 335px;
-    display: none;
+    background: rgba(0, 0, 0, 0.5);
     border-width: 1px;
     border-radius: 8px;
-    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 335px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 300px;
     z-index: 999;
   }
 
@@ -237,6 +252,86 @@ body {
     text-align: center;
     margin: 10px;
     margin-top: 10px;
+  }
+
+  #collectionInterface {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: fixed;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background: linear-gradient(to top, #6AC5FC, #fff);
+    width: 80%;
+    max-width: 80%;
+    height: 420px;
+    top: 60vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid white;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+    justify-content: flex-start;
+    padding: 0 10px;
+  }
+
+  #collectedCard {
+    position: relative;
+    top: 30px;
+    margin-top: 2.25vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 200px;
+    height: 300px;
+    background-color: #74bae9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(37, 123, 165);
+    border-width: 10px;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+
+  #collectedCard img {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #collectedCard button {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin: 3px;
+  }
+
+  #collectedCard h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #collectionTitle {
+    font-size: 22px;
+    margin: 7px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    align-content: center;
+    align-items: top;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.7);
+    background-color: #74bae9;
+    border: 1px;
+    border-style: outset;
+    border-radius: 8px;
+    padding: 5px;
   }
   
   /* Pokemon Type/Weakness Button Styling Below */
@@ -500,5 +595,4 @@ body {
     cursor: pointer;
     z-index: 200;
   }
-
 

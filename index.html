@@ -10,36 +10,36 @@
 </head>
 <body>
     <header>
-        <section id="logoContainer" class="logos">
+        <section id="logoContainer" class="container">
             <div id="logos" class="logos">
+                <p id="liteLogo">.Lite</p>
                 <div id="pokedexLogo" class="logos">
                     <img src="https://camo.githubusercontent.com/7f1f1e69bef239378a28e8aca7d1d7bd0890d37a7871d01135e2d044da6e2157/68747470733a2f2f692e696d6775722e636f6d2f415975745a4f462e706e67">
-                </div>
-                <div id="indigoLeagueLogo" class="logos">
-                    <img src="https://static.wikia.nocookie.net/mudae/images/a/a0/Pokemon_Indigo_League_Logo.png/revision/latest?cb=20201124183104">
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <section id="pokedex" class="pokedex">
-            <section id="pokedexInterface" class="interface">
-                <div id="pokemonStats" class="card"></div>
-                <div id="pokemonCard" class="card"></div>
-                <form id="pokemonSearch" class="form">
-                    <button id="searchButton" class="button">Search</button>
-                    <button id="addButton" class="button">Add</button>
-                    <select id="pokemonSelect" class="select">
-                        <option value="default" disabled selected>Please choose a Pokemon!</option>
-                    </select>
-                </form>
+        <div id="pokedexContainer" class="container">
+            <section id="pokedex" class="pokedex">
+                <section id="pokedexInterface" class="interface">
+                    <div id="pokemonStats" class="card"></div>
+                    <div id="pokemonCard" class="card"></div>
+                    <form id="pokemonSearch" class="form">
+                        <button id="searchButton" class="button">Search</button>
+                        <button id="addButton" class="button">Add</button>
+                        <select id="pokemonSelect" class="select">
+                            <option value="default" disabled selected>Please choose a Pokemon!</option>
+                        </select>
+                    </form>
+                </section>
             </section>
-        </section>
-        <section id="collectionInterface" class="interface">
-            <div id="collectionList">
-
-            </div>
-        </section>
+        </div>
+        <div id="collectionContainer" class="container">
+            <section id="collectionInterface" class="interface">
+                <p id="collectionTitle">Your Collection!</p>
+            </section>
+        </div>
     </main>
 </body>
 </html>
