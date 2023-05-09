@@ -9,8 +9,12 @@
       "weight": "15.2 lbs",
       "category": "Seed",
       "abilities": [
-        "Overgrow"
+        {
+          "name": "Overgrow",
+          "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -33,9 +37,10 @@
       "abilities": [
         {
           "name": "Overgrow",
-          "description": "description"
+          "description": "Powers up Grass-type moves when the Pokémon's HP is low."
         }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -56,8 +61,12 @@
       "weight": "220.5 lbs",
       "category": "Seed",
       "abilities": [
-        "Overgrow"
+        {
+          "name": "Overgrow",
+          "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -78,8 +87,12 @@
       "weight": "18.7 lbs",
       "category": "Lizard",
       "abilities": [
-        "Blaze"
+        {
+          "name": "Blaze",
+          "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -98,8 +111,12 @@
       "weight": "41.9 lbs",
       "category": "Flame",
       "abilities": [
-        "Blaze"
+        {
+          "name": "Blaze",
+          "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -118,8 +135,12 @@
       "weight": "199.5 lbs",
       "category": "Flame",
       "abilities": [
-        "Blaze"
+        {
+          "name": "Blaze",
+          "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire",
         "Flying"
@@ -139,8 +160,12 @@
       "weight": "19.8 lbs",
       "category": "Tiny Turtle",
       "abilities": [
-        "Torrent"
+        {
+          "name": "Torrent",
+          "description": "Powers up Water-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -158,8 +183,12 @@
       "weight": "49.6 lbs",
       "category": "Turtle",
       "abilities": [
-        "Torrent"
+        {
+          "name": "Torrent",
+          "description": "Powers up Water-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -177,8 +206,12 @@
       "weight": "188.5 lbs",
       "category": "Shellfish",
       "abilities": [
-        "Torrent"
+        {
+          "name": "Torrent",
+          "description": "Powers up Water-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -196,8 +229,12 @@
       "weight": "6.4 lbs",
       "category": "Worm",
       "abilities": [
-        "Shield Dust"
+        {
+          "name": "Shield Dust",
+          "description": "Protective dust shields the Pokémon from the additional effects of moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug"
       ],
@@ -216,8 +253,12 @@
       "weight": "21.8 lbs",
       "category": "Cocoon",
       "abilities": [
-        "Shed Skin"
+        {
+          "name": "Shed Skin",
+          "description": "The Pokémon may cure its own status conditions by shedding its skin."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug"
       ],
@@ -236,8 +277,12 @@
       "weight": "70.5 lbs",
       "category": "Butterfly",
       "abilities": [
-        "Compound Eyes"
+        {
+          "name": "Compound Eyes",
+          "description": "The Pokémon's compound eyes boost its accuracy."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Flying"
@@ -259,8 +304,12 @@
       "weight": "7.1 lbs",
       "category": "Hairy Bug",
       "abilities": [
-        "Shield Dust"
+        {
+          "name": "Shield Dust",
+          "description": "Protective dust shields the Pokémon from the additional effects of moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Poison"
@@ -281,8 +330,12 @@
       "weight": "22.0 lbs",
       "category": "Cocoon",
       "abilities": [
-        "Shed Skin"
+        {
+          "name": "Shed Skin",
+          "description": "The Pokémon may cure its own status conditions by shedding its skin."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Poison"
@@ -303,8 +356,12 @@
       "weight": "65.0 lbs",
       "category": "Poison Bee",
       "abilities": [
-        "Swarm"
+        {
+          "name": "Swarm",
+          "description": "Powers up Bug-type moves when the Pokémon's HP is low."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Poison"
@@ -325,9 +382,16 @@
       "weight": "4.0 lbs",
       "category": "Tiny Bird",
       "abilities": [
-        "Keen Eye",
-        "Tangled Feet"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Boosts the Pokémon's evasiveness if it is confused."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -347,9 +411,16 @@
       "weight": "66.1 lbs",
       "category": "Bird",
       "abilities": [
-        "Keen Eye",
-        "Tangled Feet"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Boosts the Pokémon's evasiveness if it is confused."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -369,9 +440,16 @@
       "weight": "87.1 lbs",
       "category": "Bird",
       "abilities": [
-        "Keen Eye",
-        "Tangled Feet"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        },
+        {
+          "name": "Tangled Feet",
+          "description": "Boosts the Pokémon's evasiveness if it is confused."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -391,9 +469,16 @@
       "weight": "7.7 lbs",
       "category": "Mouse",
       "abilities": [
-        "Run Away",
-        "Guts"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Guts",
+          "description": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -410,9 +495,16 @@
       "weight": "40.8 lbs",
       "category": "Mouse",
       "abilities": [
-        "Run Away",
-        "Guts"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Guts",
+          "description": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -429,8 +521,12 @@
       "weight": "4.4 lbs",
       "category": "Tiny Bird",
       "abilities": [
-        "Keen Eye"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -450,8 +546,12 @@
       "weight": "83.8 lbs",
       "category": "Beak",
       "abilities": [
-        "Keen Eye"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -471,9 +571,16 @@
       "weight": "15.2 lbs",
       "category": "Snake",
       "abilities": [
-        "Shed Skin",
-        "Intimidate"
+        {
+          "name": "Shed Skin",
+          "description": "The Pokémon may cure its own status conditions by shedding its skin."
+        },
+        {
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -491,9 +598,16 @@
       "weight": "143.3 lbs",
       "category": "Cobra",
       "abilities": [
-        "Shed Skin",
-        "Intimidate"
+        {
+          "name": "Shed Skin",
+          "description": "The Pokémon may cure its own status conditions by shedding its skin."
+        },
+        {
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -511,8 +625,12 @@
       "weight": "13.2 lbs",
       "category": "Mouse",
       "abilities": [
-        "Static"
+        {
+          "name": "Static",
+          "description": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric"
       ],
@@ -529,8 +647,12 @@
       "weight": "66.1 lbs",
       "category": "Mouse",
       "abilities": [
-        "Static"
+        {
+          "name": "Static",
+          "description": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric"
       ],
@@ -547,8 +669,12 @@
       "weight": "26.5 lbs",
       "category": "Mouse",
       "abilities": [
-        "Sand Veil"
+        {
+          "name": "Sand Veil",
+          "description": "Boosts the Pokémon's evasiveness in a sandstorm."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground"
       ],
@@ -567,8 +693,12 @@
       "weight": "65.0 lbs",
       "category": "Mouse",
       "abilities": [
-        "Sand Veil"
+        {
+          "name": "Sand Veil",
+          "description": "Boosts the Pokémon's evasiveness in a sandstorm."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground"
       ],
@@ -587,9 +717,16 @@
       "weight": "15.4 lbs",
       "category": "Poison Pin",
       "abilities": [
-        "Poison Point",
-        "Rivalry"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Rivalry",
+          "description": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -607,9 +744,16 @@
       "weight": "44.1 lbs",
       "category": "Poison Pin",
       "abilities": [
-        "Poison Point",
-        "Rivalry"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Rivalry",
+          "description": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -627,9 +771,16 @@
       "weight": "199.5 lbs",
       "category": "Drill",
       "abilities": [
-        "Poison Point",
-        "Rivalry"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Rivalry",
+          "description": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison",
         "Ground"
@@ -650,9 +801,16 @@
       "weight": "19.8 lbs",
       "category": "Poison Pin",
       "abilities": [
-        "Poison Point",
-        "Rivalry"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Rivalry",
+          "description": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -670,9 +828,16 @@
       "weight": "43.0 lbs",
       "category": "Poison Pin",
       "abilities": [
-        "Poison Point",
-        "Rivalry"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Rivalry",
+          "description": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -690,9 +855,16 @@
       "weight": "136.7 lbs",
       "category": "Drill",
       "abilities": [
-        "Poison Point",
-        "Rivalry"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Rivalry",
+          "description": "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison",
         "Ground"
@@ -713,9 +885,16 @@
       "weight": "16.5 lbs",
       "category": "Fairy",
       "abilities": [
-        "Cute Charm",
-        "Magic Guard"
+        {
+          "name": "Cute Charm",
+          "description": "The Pokémon may infatuate attackers that make direct contact with it."
+        },
+        {
+          "name": "Magic Guard",
+          "description": "The Pokémon only takes damage from attacks."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fairy"
       ],
@@ -733,9 +912,16 @@
       "weight": "88.2 lbs",
       "category": "Fairy",
       "abilities": [
-        "Cute Charm",
-        "Magic Guard"
+        {
+          "name": "Cute Charm",
+          "description": "The Pokémon may infatuate attackers that make direct contact with it."
+        },
+        {
+          "name": "Magic Guard",
+          "description": "The Pokémon only takes damage from attacks."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fairy"
       ],
@@ -753,8 +939,12 @@
       "weight": "21.8 lbs",
       "category": "Fox",
       "abilities": [
-        "Flash Fire"
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -773,8 +963,12 @@
       "weight": "43.9 lbs",
       "category": "Fox",
       "abilities": [
-        "Flash Fire"
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -793,9 +987,16 @@
       "weight": "12.1 lbs",
       "category": "Balloon",
       "abilities": [
-        "Cute Charm",
-        "Competitive"
+        {
+          "name": "Cute Charm",
+          "description": "The Pokémon may infatuate attackers that make direct contact with it."
+        },
+        {
+          "name": "Competitive",
+          "description": "Boosts the Pokémon's Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Fairy"
@@ -814,9 +1015,16 @@
       "weight": "26.5 lbs",
       "category": "Balloon",
       "abilities": [
-        "Cute Charm",
-        "Competitive"
+        {
+          "name": "Cute Charm",
+          "description": "The Pokémon may infatuate attackers that make direct contact with it."
+        },
+        {
+          "name": "Competitive",
+          "description": "Boosts the Pokémon's Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Fairy"
@@ -835,8 +1043,12 @@
       "weight": "16.5 lbs",
       "category": "Bat",
       "abilities": [
-        "Inner Focus"
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison",
         "Flying"
@@ -857,8 +1069,12 @@
       "weight": "121.3 lbs",
       "category": "Bat",
       "abilities": [
-        "Inner Focus"
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison",
         "Flying"
@@ -879,8 +1095,12 @@
       "weight": "11.9 lbs",
       "category": "Weed",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -901,8 +1121,12 @@
       "weight": "19.0 lbs",
       "category": "Weed",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -923,8 +1147,12 @@
       "weight": "41.0 lbs",
       "category": "Flower",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -945,9 +1173,16 @@
       "weight": "11.9 lbs",
       "category": "Mushroom",
       "abilities": [
-        "Effect Sport",
-        "Dry Skin"
+        {
+          "name": "Effect Spore",
+          "description": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+        },
+        {
+          "name": "Dry Skin",
+          "description": "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Grass"
@@ -970,9 +1205,16 @@
       "weight": "65.0 lbs",
       "category": "Mushroom",
       "abilities": [
-        "Effect Sport",
-        "Dry Skin"
+        {
+          "name": "Effect Spore",
+          "description": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+        },
+        {
+          "name": "Dry Skin",
+          "description": "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Grass"
@@ -995,9 +1237,16 @@
       "weight": "66.1 lbs",
       "category": "Insect",
       "abilities": [
-        "Compound Eyes",
-        "Tinted Lens"
+        {
+          "name": "Compound Eyes",
+          "description": "The Pokémon's compound eyes boost its accuracy."
+        },
+        {
+          "name": "Tinted Lens",
+          "description": "The Pokémon can use “not very effective” moves to deal regular damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Poison"
@@ -1018,9 +1267,16 @@
       "weight": "27.6 lbs",
       "category": "Poison Moth",
       "abilities": [
-        "Shield Dust",
-        "Tinted Lens"
+        {
+          "name": "Compound Eyes",
+          "description": "The Pokémon's compound eyes boost its accuracy."
+        },
+        {
+          "name": "Tinted Lens",
+          "description": "The Pokémon can use “not very effective” moves to deal regular damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Poison"
@@ -1041,9 +1297,16 @@
       "weight": "1.8 lbs",
       "category": "Mole",
       "abilities": [
-        "Sand Veil",
-        "Arena Trap"
+        {
+          "name": "Sand Veil",
+          "description": "Boosts the Pokémon's evasiveness in a sandstorm."
+        },
+        {
+          "name": "Arena Trap",
+          "description": "Prevents opposing Pokémon from fleeing from battle."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground"
       ],
@@ -1062,9 +1325,16 @@
       "weight": "73.4 lbs",
       "category": "Mole",
       "abilities": [
-        "Sand Veil",
-        "Arena Trap"
+        {
+          "name": "Sand Veil",
+          "description": "Boosts the Pokémon's evasiveness in a sandstorm."
+        },
+        {
+          "name": "Arena Trap",
+          "description": "Prevents opposing Pokémon from fleeing from battle."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground"
       ],
@@ -1083,9 +1353,16 @@
       "weight": "9.3 lbs",
       "category": "Scratch Cat",
       "abilities": [
-        "Pickup",
-        "Technician"
+        {
+          "name": "Pickup",
+          "description": "The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too."
+        },
+        {
+          "name": "Technician",
+          "description": "Powers up weak moves so the Pokémon can deal more damage with them."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -1102,9 +1379,16 @@
       "weight": "70.5 lbs",
       "category": "Classy Cat",
       "abilities": [
-        "Limber",
-        "Technician"
+        {
+          "name": "Limber",
+          "description": "The Pokémon's limber body prevents it from being paralyzed."
+        },
+        {
+          "name": "Technician",
+          "description": "Powers up weak moves so the Pokémon can deal more damage with them."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -1121,9 +1405,16 @@
       "weight": "43.2 lbs",
       "category": "Duck",
       "abilities": [
-        "Damp",
-        "Cloud Nine"
+        {
+          "name": "Damp",
+          "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+        },
+        {
+          "name": "Cloud Nine",
+          "description": "Eliminates the effects of weather."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -1141,9 +1432,16 @@
       "weight": "168.9 lbs",
       "category": "Duck",
       "abilities": [
-        "Damp",
-        "Cloud Nine"
+        {
+          "name": "Damp",
+          "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+        },
+        {
+          "name": "Cloud Nine",
+          "description": "Eliminates the effects of weather."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -1161,9 +1459,16 @@
       "weight": "61.7 lbs",
       "category": "Pig Monkey",
       "abilities": [
-        "Vital Spirit",
-        "Anger Point"
+        {
+          "name": "Vital Spirit",
+          "description": "The Pokémon is full of vitality, and that prevents it from falling asleep."
+        },
+        {
+          "name": "Anger Point",
+          "description": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -1182,9 +1487,16 @@
       "weight": "70.5 lbs",
       "category": "Pig Monkey",
       "abilities": [
-        "Vital Spirit",
-        "Anger Point"
+        {
+          "name": "Vital Spirit",
+          "description": "The Pokémon is full of vitality, and that prevents it from falling asleep."
+        },
+        {
+          "name": "Anger Point",
+          "description": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -1203,9 +1515,16 @@
       "weight": "41.9 lbs",
       "category": "Puppy",
       "abilities": [
-        "Intimidate",
-        "Flash Fire"
+        {
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -1224,9 +1543,16 @@
       "weight": "341.7 lbs",
       "category": "Flame",
       "abilities": [
-        "Intimidate",
-        "Flash Fire"
+        {
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -1245,9 +1571,16 @@
       "weight": "27.3 lbs",
       "category": "Tadpole",
       "abilities": [
-        "Damp",
-        "Water Absorb"
+        {
+          "name": "Damp",
+          "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -1265,9 +1598,16 @@
       "weight": "44.1 lbs",
       "category": "Tadpole",
       "abilities": [
-        "Damp",
-        "Water Absorb"
+        {
+          "name": "Damp",
+          "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -1285,9 +1625,16 @@
       "weight": "119.0 lbs",
       "category": "Tadpole",
       "abilities": [
-        "Damp",
-        "Water Absorb"
+        {
+          "name": "Damp",
+          "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct."
+        },
+        {
+          "name": "Water Absorb",
+          "description": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Fighting"
@@ -1309,9 +1656,16 @@
       "weight": "43.0 lbs",
       "category": "Psi",
       "abilities": [
-        "Inner Focus",
-        "Synchronize"
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        },
+        {
+          "name": "Synchronize",
+          "description": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
@@ -1330,9 +1684,16 @@
       "weight": "124.6 lbs",
       "category": "Psi",
       "abilities": [
-        "Inner Focus",
-        "Synchronize"
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        },
+        {
+          "name": "Synchronize",
+          "description": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
@@ -1351,9 +1712,16 @@
       "weight": "105.8 lbs",
       "category": "Psi",
       "abilities": [
-        "Inner Focus",
-        "Synchronize"
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        },
+        {
+          "name": "Synchronize",
+          "description": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
@@ -1372,9 +1740,16 @@
       "weight": "43.0 lbs",
       "category": "Superpower",
       "abilities": [
-        "Guts",
-        "No Guard"
+        {
+          "name": "Guts",
+          "description": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+        },
+        {
+          "name": "No Guard",
+          "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -1393,9 +1768,16 @@
       "weight": "155.4 lbs",
       "category": "Superpower",
       "abilities": [
-        "Guts",
-        "No Guard"
+        {
+          "name": "Guts",
+          "description": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+        },
+        {
+          "name": "No Guard",
+          "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -1414,9 +1796,16 @@
       "weight": "286.6 lbs",
       "category": "Superpower",
       "abilities": [
-        "Guts",
-        "No Guard"
+        {
+          "name": "Guts",
+          "description": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat."
+        },
+        {
+          "name": "No Guard",
+          "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -1435,8 +1824,12 @@
       "weight": "8.8 lbs",
       "category": "Flower",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -1457,8 +1850,12 @@
       "weight": "14.1 lbs",
       "category": "Flycatcher",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -1479,8 +1876,12 @@
       "weight": "34.2 lbs",
       "category": "Flycatcher",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Poison"
@@ -1501,9 +1902,16 @@
       "weight": "100.3 lbs",
       "category": "Jellyfish",
       "abilities": [
-        "Clear Body",
-        "Liquid Ooze"
+        {
+          "name": "Clear Body",
+          "description": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+        },
+        {
+          "name": "Liquid Ooze",
+          "description": "The strong stench of the Pokémon's oozed liquid damages attackers that use HP-draining moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Poison"
@@ -1518,14 +1926,21 @@
       "id": 73,
       "name": "Tentacruel",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
-      "description": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+      "description": "When the red orbs on Tentacruel's head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
       "height": "5' 03\"",
       "weight": "121.3 lbs",
       "category": "Jellyfish",
       "abilities": [
-        "Clear Body",
-        "Liquid Ooze"
+        {
+          "name": "Clear Body",
+          "description": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+        },
+        {
+          "name": "Liquid Ooze",
+          "description": "The strong stench of the Pokémon's oozed liquid damages attackers that use HP-draining moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Poison"
@@ -1545,9 +1960,16 @@
       "weight": "44.1 lbs",
       "category": "Rock",
       "abilities": [
-        "Rock Head",
-        "Sturdy"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Ground"
@@ -1570,9 +1992,16 @@
       "weight": "231.5 lbs",
       "category": "Rock",
       "abilities": [
-        "Rock Head",
-        "Sturdy"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Ground"
@@ -1595,9 +2024,16 @@
       "weight": "661.4 lbs",
       "category": "Megaton",
       "abilities": [
-        "Rock Head",
-        "Sturdy"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Ground"
@@ -3202,6 +3638,6 @@
     }
   ],
   "collection": [
-
+    
   ]
 }

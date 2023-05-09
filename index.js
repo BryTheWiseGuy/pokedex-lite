@@ -185,14 +185,15 @@ document.addEventListener('DOMContentLoaded', () => {
         let selectedPokemonAbilities = data.find(pokemon => pokemon.name === selectedPokemon.value).abilities;
         let overlay = document.createElement('div');
         overlay.id = 'overlay';
+        overlay.classList = 'show'
         pokemonAbilityContainer.appendChild(overlay);
         for (let i = 0; i < abilities.length; i++) {
             if (selectedPokemonAbilities.includes(abilities[i])) {
                 let abilityButton = document.createElement('button');
                 let abilityInfoBox = document.createElement('div');
                 let abilityInfo = document.createElement('p');
-                abilityInfo.innerText = abilities[i];
-                abilityButton.innerText = abilities[i];
+                abilityInfo.innerText = abilities[i].description;
+                abilityButton.innerText = abilities[i].name;
                 abilityInfoBox.id = 'infoBox';
                 abilityButton.id = 'abilityButton';
                 pokemonAbilityContainer.appendChild(abilityButton);
