@@ -31,7 +31,10 @@
       "weight": "28.7 lbs",
       "category": "Seed",
       "abilities": [
-        "Overgrow"
+        {
+          "name": "Overgrow",
+          "description": "description"
+        }
       ],
       "type": [
         "Grass",
