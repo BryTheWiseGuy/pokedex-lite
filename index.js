@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     getCollectedPokemon();
     fetch('http://localhost:3000/pokemon')
-        .then(res => res.json())
-        .then(data => {
-            createPokemonSelection(data);
-            renderSelectedPokemon(data);
-            document.querySelector('#addButton').addEventListener('click', (e) => {
-                e.preventDefault();
-                addToPokemonCollection(data);
+    .then(res => res.json())
+    .then(data => {
+        createPokemonSelection(data);
+        renderSelectedPokemon(data);
+        document.querySelector('#addButton').addEventListener('click', (e) => {
+            e.preventDefault();
+            addToPokemonCollection(data);
         })
     })
 
@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('http://localhost:3000/collection')
         .then(res => res.json())
         .then(pokemonData => {
-            console.log(pokemonData);
             initializePokemonCollection(pokemonData);
+            initializeFavoritePokemon(pokemonData);
         })
     }
 
@@ -28,11 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //=> Whereas the addToPokemonCollection simply duplicates the originally searched for pokemon card and POSTs its json data to the "collection" root, this function re-renders the card on page refresh so cards are persisted on the page
     function renderCollectedPokemon(pokemon) {
+        let pokemonObj = {...pokemon};
         let collectionInterface = document.querySelector('#collectionInterface');
         let pokemonCard = document.createElement('div');
         let pokemonImage = document.createElement('img');
         let pokemonName = document.createElement('h3');
         let pokemonTypeContainer = document.createElement('div');
+        let favoriteButton = document.createElement('button');
+        let deleteButton = document.createElement('button');
+        deleteButton.innerText = 'Remove';
+        favoriteButton.innerText = '\u2661';
+        deleteButton.id = 'deleteButton';
+        favoriteButton.classList.add('favoriteButton');
         pokemonCard.id = 'collectedCard';
         pokemonTypeContainer.id = 'pokemonType';
         pokemonImage.src = pokemon.image;
@@ -46,10 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
             pokemonTypeContainer.appendChild(typeButton);
             }
         }
+        pokemonCard.appendChild(favoriteButton);
+        pokemonCard.appendChild(deleteButton);
         pokemonCard.appendChild(pokemonImage);
         pokemonCard.appendChild(pokemonName);
         pokemonCard.appendChild(pokemonTypeContainer);
         collectionInterface.appendChild(pokemonCard);
+        handleFavoriteButton(pokemonObj);
     }
 
     
@@ -65,8 +75,17 @@ document.addEventListener('DOMContentLoaded', () => {
             if (pokemon.name === selectedPokemon) {
                 let originalCard = document.querySelector('#pokemonCard');
                 let collectedCard = originalCard.cloneNode(true);
+                let favoriteButton = document.createElement('button');
+                let deleteButton = document.createElement('button');
+                deleteButton.innerText = 'Remove';
+                favoriteButton.innerText = '\u2661';
                 collectedCard.id = 'collectedCard';
-                interface.appendChild(collectedCard);
+                deleteButton.id = 'deleteButton';
+                favoriteButton.classList.add('favoriteButton')
+                collectedCard.appendChild(favoriteButton);
+                collectedCard.appendChild(deleteButton);
+                interface.appendChild(collectedCard);   
+                handleFavoriteButton(pokemonObj);
                 postCollectedPokemon(pokemonObj);
             }
         })
@@ -74,12 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //=> Used in the above function to POST the pokemon added to the collection interface to the "collection" root within index.json; allows pokemon in the collection to persist on page refresh
     function postCollectedPokemon(pokemonObj) {
-        fetch('http://localhost:3000/collection', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(pokemonObj)
+        fetch('http://localhost:3000/collection/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(pokemonObj)
         })
     }
 
@@ -89,11 +108,46 @@ document.addEventListener('DOMContentLoaded', () => {
     //=> Handles DELETE of pokemon from index.json
     function deleteCollectedPokemon(pokemonObj){}
 
-    //=> Handles the details of the event of favoriting a pokemon in the collection interface
-    function favoritePokemon(data){}
+    //Handles Event Listener for the favorite button
+    function handleFavoriteButton(pokemonObj) {
+        favoriteButton.addEventListener('click', () => {
+            if (pokemonObj.favorited === false) {
+                pokemonObj.favorited = true;
+                favoriteButton.innerText = '\u2665';
+                patchFavorite(pokemonObj);
+            } else if (pokemonObj.favorited === true) {
+                pokemonObj.favorited = false;
+                favoriteButton.innerText = '\u2661';
+                patchFavorite(pokemonObj);
+            }
+        })
+    }
+
+    // => Handles the initialization of favorited/unfavorited pokemon on page refresh
+    function intializeFavoritePokemon(pokemonData) {
+        let favoriteButton = document.querySelector('.favoriteButton');
+        pokemonData.forEach(pokemon => {
+            let pokemonObj = {...pokemon}
+            if (pokemonObj.favorited === true) {
+                favoriteButton.innerText = '\u2665';
+            } else if (pokemonObj.favorited === false) {
+                favoriteButton.innerText = '\u2661';
+            }
+        })
+    }
 
     //=> Handles PATCH of the favorite key/value pair in the "collection" root of index.json
-    function patchFavorite(pokemonObj){}
+    function patchFavorite(pokemonObj){
+        fetch(`http://localhost:3000/collection/${pokemonObj.id}`, {
+        method: 'PATCH',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            favorited: pokemonObj.favorited,
+            })
+        })
+    }
     
     //=> Renders the pokemon selected from the drop down menu on the pokedex interface when the search button is clicked
     function renderSelectedPokemon (data) {
@@ -185,14 +239,15 @@ document.addEventListener('DOMContentLoaded', () => {
         let selectedPokemonAbilities = data.find(pokemon => pokemon.name === selectedPokemon.value).abilities;
         let overlay = document.createElement('div');
         overlay.id = 'overlay';
+        overlay.classList = 'show'
         pokemonAbilityContainer.appendChild(overlay);
         for (let i = 0; i < abilities.length; i++) {
             if (selectedPokemonAbilities.includes(abilities[i])) {
                 let abilityButton = document.createElement('button');
                 let abilityInfoBox = document.createElement('div');
                 let abilityInfo = document.createElement('p');
-                abilityInfo.innerText = abilities[i];
-                abilityButton.innerText = abilities[i];
+                abilityInfo.innerText = abilities[i].description;
+                abilityButton.innerText = abilities[i].name;
                 abilityInfoBox.id = 'infoBox';
                 abilityButton.id = 'abilityButton';
                 pokemonAbilityContainer.appendChild(abilityButton);
