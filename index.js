@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(res => res.json())
         .then(pokemonData => {
             initializePokemonCollection(pokemonData);
-            initializeFavoritePokemon(pokemonData);
         })
     }
 
@@ -53,14 +52,35 @@ document.addEventListener('DOMContentLoaded', () => {
             pokemonTypeContainer.appendChild(typeButton);
             }
         }
+        if (pokemonObj.favorited === true) {
+            favoriteButton.innerText = '\u2665';
+        } else if (pokemonObj.favorited === false) {
+            favoriteButton.innerText = '\u2661';
+        }
         pokemonCard.appendChild(favoriteButton);
         pokemonCard.appendChild(deleteButton);
         pokemonCard.appendChild(pokemonImage);
         pokemonCard.appendChild(pokemonName);
         pokemonCard.appendChild(pokemonTypeContainer);
         collectionInterface.appendChild(pokemonCard);
-        handleFavoriteButton(pokemonObj);
-        handlePokemonDelete(pokemonObj);
+        favoriteButton.addEventListener('click', () => {
+            if (pokemonObj.favorited === false) {
+                pokemonObj.favorited = true;
+                favoriteButton.innerText = '\u2665';
+                patchFavorite(pokemonObj);
+            } else if (pokemonObj.favorited === true) {
+                pokemonObj.favorited = false;
+                favoriteButton.innerText = '\u2661';
+                patchFavorite(pokemonObj);
+            }
+        })
+        deleteButton.addEventListener('click', () => {
+            let result = window.confirm('Are you sure you want to delete this pokemon from your collect?');
+            if (result) {
+                collectionInterface.removeChild(pokemonCard);
+                deletePokemon(pokemonObj);
+            }
+        })
     }
 
     
@@ -86,8 +106,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 collectedCard.appendChild(favoriteButton);
                 collectedCard.appendChild(deleteButton);
                 interface.appendChild(collectedCard);   
-                handleFavoriteButton(pokemonObj);
+                favoriteButton.addEventListener('click', () => {
+                    if (pokemonObj.favorited === false) {
+                        pokemonObj.favorited = true;
+                        favoriteButton.innerText = '\u2665';
+                        patchFavorite(pokemonObj);
+                    } else if (pokemonObj.favorited === true) {
+                        pokemonObj.favorited = false;
+                        favoriteButton.innerText = '\u2661';
+                        patchFavorite(pokemonObj);
+                    }
+                })
                 postCollectedPokemon(pokemonObj);
+                deleteButton.addEventListener('click', () => {
+                    let interface = document.querySelector('#collectionInterface');
+                    let result = window.confirm('Are you sure you want to delete this pokemon from your collect?');
+                    if (result) {
+                        interface.removeChild(collectedCard);
+                        deletePokemon(pokemonObj);
+                    }
+                })
             }
         })
     }
@@ -103,20 +141,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
-    //=> Removes the pokemon from the pokemon collection interface, as well as removing the data from the "collection" root of index.json
-    function handlePokemonDelete(pokemonObj){
-        let deleteButton = document.querySelector('#deleteButton');
-        let interface = document.querySelector('#collectionInterface');
-        let collectedCard = document.querySelector('#collectedCard');
-        deleteButton.addEventListener('click', () => {
-            let result = window.confirm('Are you sure you want to delete this pokemon from your collect?');
-            if (result) {
-                interface.removeChild(collectedCard);
-                deletePokemon(pokemonObj);
-            }
-        })
-    }
-
     //=> Handles DELETE of pokemon from index.json
     function deletePokemon(pokemonObj){
         fetch(`http://localhost:3000/collection/${pokemonObj.id}`, {
@@ -125,35 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(pokemonObj)
-        })
-    }
-
-    //Handles Event Listener for the favorite button
-    function handleFavoriteButton(pokemonObj) {
-        let favoriteButton = document.querySelector('.favoriteButton');
-        favoriteButton.addEventListener('click', () => {
-            if (pokemonObj.favorited === false) {
-                pokemonObj.favorited = true;
-                favoriteButton.innerText = '\u2665';
-                patchFavorite(pokemonObj);
-            } else if (pokemonObj.favorited === true) {
-                pokemonObj.favorited = false;
-                favoriteButton.innerText = '\u2661';
-                patchFavorite(pokemonObj);
-            }
-        })
-    }
-
-    // => Handles the initialization of favorited/unfavorited pokemon on page refresh
-    function initializeFavoritePokemon(pokemonData) {
-        let favoriteButton = document.querySelector('.favoriteButton');
-        pokemonData.forEach(pokemon => {
-            let pokemonObj = {...pokemon}
-            if (pokemonObj.favorited === true) {
-                favoriteButton.innerText = '\u2665';
-            } else if (pokemonObj.favorited === false) {
-                favoriteButton.innerText = '\u2661';
-            }
         })
     }
 
