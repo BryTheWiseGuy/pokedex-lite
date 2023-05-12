@@ -3823,9 +3823,16 @@
       "weight": "89.3 lbs",
       "category": "Shellfish",
       "abilities": [
-        "Swift Swim",
-        "Battle Armor"
+        {
+          "name": "Battle Armor",
+          "description": "Hard armor protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Water"
@@ -3846,9 +3853,16 @@
       "weight": "130.5 lbs",
       "category": "Fossil",
       "abilities": [
-        "Rock Head",
-        "Pressure"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Pressure",
+          "description": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Flying"
@@ -3870,9 +3884,16 @@
       "weight": "1014.1 lbs",
       "category": "Sleeping",
       "abilities": [
-        "Thick Fat",
-        "Immunity"
+        {
+          "name": "Thick Fat",
+          "description": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
+        },
+        {
+          "name": "Immunity",
+          "description": "The Pokémon's immune system prevents it from being poisoned."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3889,8 +3910,12 @@
       "weight": "122.1 lbs",
       "category": "Freeze",
       "abilities": [
-        "Pressure"
+        {
+          "name": "Pressure",
+          "description": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ice",
         "Flying"
@@ -3911,8 +3936,12 @@
       "weight": "116.0 lbs",
       "category": "Electric",
       "abilities": [
-        "Pressure"
+        {
+          "name": "Pressure",
+          "description": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric",
         "Flying"
@@ -3931,8 +3960,12 @@
       "weight": "132.3 lbs",
       "category": "Flame",
       "abilities": [
-        "Pressure"
+        {
+          "name": "Pressure",
+          "description": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire",
         "Flying"
@@ -3952,8 +3985,12 @@
       "weight": "7.3 lbs",
       "category": "Dragon",
       "abilities": [
-        "Shed Skin"
+        {
+          "name": "Shed Skin",
+          "description": "The Pokémon may cure its own status conditions by shedding its skin."
+        }
       ],
+      "favorited": false,
       "type": [
         "Dragon"
       ],
@@ -3972,8 +4009,12 @@
       "weight": "36.4 lbs",
       "category": "Dragon",
       "abilities": [
-        "Shed Skin"
+        {
+          "name": "Shed Skin",
+          "description": "The Pokémon may cure its own status conditions by shedding its skin."
+        }
       ],
+      "favorited": false,
       "type": [
         "Dragon"
       ],
@@ -3992,8 +4033,12 @@
       "weight": "463.0 lbs",
       "category": "Dragon",
       "abilities": [
-        "Inner Focus"
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Dragon",
         "Flying"
@@ -4009,13 +4054,17 @@
       "id": 150,
       "name": "Mewtwo",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
-      "description": "Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.",
+      "description": "Its DNA is almost the same as Mew's. However, its size and disposition are vastly different.",
       "height": "6' 07\"",
       "weight": "269.0 lbs",
       "category": "Genetic",
       "abilities": [
-        "Pressure"
+        {
+          "name": "Pressure",
+          "description": "Puts other Pokémon under pressure, causing them to expend more PP to use their moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
@@ -4029,13 +4078,17 @@
       "id": 151,
       "name": "Mew",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
-      "description": "When viewed through a microscope, this Pokémon’s short, fine, delicate hair can be seen.",
+      "description": "When viewed through a microscope, this Pokémon's short, fine, delicate hair can be seen.",
       "height": "1' 04\"",
       "weight": "8.8 lbs",
       "category": "New Species",
       "abilities": [
-        "Synchronize"
+        {
+          "name": "Synchronize",
+          "description": "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
