@@ -2056,9 +2056,16 @@
       "weight": "66.1 lbs",
       "category": "Fire Horse",
       "abilities": [
-        "Run Away",
-        "Flash Fire"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -2077,9 +2084,16 @@
       "weight": "209.4 lbs",
       "category": "Fire Horse",
       "abilities": [
-        "Run Away",
-        "Flash Fire"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -2098,9 +2112,16 @@
       "weight": "79.4 lbs",
       "category": "Dopey",
       "abilities": [
-        "Oblivious",
-        "Own Tempo"
+        {
+          "name": "Oblivious",
+          "description": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
+        },
+        {
+          "name": "Own Tempe",
+          "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Psychic"
@@ -2122,9 +2143,16 @@
       "weight": "173.1 lbs",
       "category": "Hermit Crab",
       "abilities": [
-        "Oblivious",
-        "Own Tempo"
+        {
+          "name": "Oblivious",
+          "description": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
+        },
+        {
+          "name": "Own Tempe",
+          "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Psychic"
@@ -2146,9 +2174,16 @@
       "weight": "13.2 lbs",
       "category": "Magnet",
       "abilities": [
-        "Sturdy",
-        "Magnet Pull"
+        {
+          "name": "Sturdy",
+          "description": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        },
+        {
+          "name": "Magnet Pull",
+          "description": "Prevents Steel-type Pokémon from fleeing by pulling them in with magnetism."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric",
         "Steel"
@@ -2168,9 +2203,16 @@
       "weight": "132.3 lbs",
       "category": "Magnet",
       "abilities": [
-        "Sturdy",
-        "Magnet Pull"
+        {
+          "name": "Sturdy",
+          "description": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        },
+        {
+          "name": "Magnet Pull",
+          "description": "Prevents Steel-type Pokémon from fleeing by pulling them in with magnetism."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric",
         "Steel"
@@ -2190,9 +2232,16 @@
       "weight": "33.1 lbs",
       "category": "Wild Duck",
       "abilities": [
-        "Keen Eye",
-        "Inner Focus"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        },
+        {
+          "name": "Inner Focus",
+          "description": "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -2212,9 +2261,16 @@
       "weight": "86.4 lbs",
       "category": "Twin Bird",
       "abilities": [
-        "Run Away",
-        "Early Bird"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Early Bird",
+          "description": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -2234,9 +2290,16 @@
       "weight": "187.8 lbs",
       "category": "Triple Bird",
       "abilities": [
-        "Run Away",
-        "Early Bird"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Early Bird",
+          "description": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal",
         "Flying"
@@ -2256,9 +2319,16 @@
       "weight": "198.4 lbs",
       "category": "Sea Lion",
       "abilities": [
-        "Thick Fat",
-        "Hydration"
+        {
+          "name": "Thick Fat",
+          "description": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
+        },
+        {
+          "name": "Hydration",
+          "description": "Cures the Pokémon's status conditions in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -2276,9 +2346,16 @@
       "weight": "264.6 lbs",
       "category": "Sea Lion",
       "abilities": [
-        "Thick Fat",
-        "Hydration"
+        {
+          "name": "Thick Fat",
+          "description": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
+        },
+        {
+          "name": "Hydration",
+          "description": "Cures the Pokémon's status conditions in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Ice"
@@ -2299,9 +2376,16 @@
       "weight": "66.1 lbs",
       "category": "Sludge",
       "abilities": [
-        "Stench",
-        "Sticky Hold"
+        {
+          "name": "Stench",
+          "description": "By releasing a stench when attacking, the Pokémon may cause the target to flinch."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -2314,14 +2398,21 @@
       "id": 89,
       "name": "Muk",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
-      "description": "It’s thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "description": "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
       "height": "3' 11\"",
       "weight": "66.1 lbs",
       "category": "Sludge",
       "abilities": [
-        "Stench",
-        "Sticky Hold"
+        {
+          "name": "Stench",
+          "description": "By releasing a stench when attacking, the Pokémon may cause the target to flinch."
+        },
+        {
+          "name": "Sticky Hold",
+          "description": "The Pokémon's held items cling to its sticky body and cannot be removed by other Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
