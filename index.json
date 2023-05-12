@@ -3560,9 +3560,16 @@
       "weight": "485.0 lbs",
       "category": "Transport",
       "abilities": [
-        "Water Absorb",
-        "Shell Armor"
+        {
+          "name": "Water Absorb",
+          "description": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+        },
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Ice"
@@ -3578,13 +3585,17 @@
       "id": 132,
       "name": "Ditto",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
-      "description": "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise.",
+      "description": "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
       "height": "1' 00\"",
       "weight": "8.8 lbs",
       "category": "Transform",
       "abilities": [
-        "Limber"
+        {
+          "name": "Limber",
+          "description": "The Pokémon's limber body prevents it from being paralyzed."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3601,9 +3612,16 @@
       "weight": "14.3 lbs",
       "category": "Evolution",
       "abilities": [
-        "Run Away",
-        "Adaptability"
+        {
+          "name": "Run Away",
+          "description": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Adaptibility",
+          "description": "Powers up moves of the same type as the Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3620,8 +3638,12 @@
       "weight": "63.9 lbs",
       "category": "Bubble Jet",
       "abilities": [
-        "Water Absorb"
+        {
+          "name": "Water Absorb",
+          "description": "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -3639,8 +3661,12 @@
       "weight": "54.0 lbs",
       "category": "Lightening",
       "abilities": [
-        "Volt Absorb"
+        {
+          "name": "Volt Absorb",
+          "description": "If hit by a Electric-type move, the Pokémon has its HP restored instead of taking damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric"
       ],
@@ -3657,8 +3683,12 @@
       "weight": "55.1 lbs",
       "category": "Flame",
       "abilities": [
-        "Flash Fire"
+        {
+          "name": "Flash Fire",
+          "description": "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -3677,9 +3707,16 @@
       "weight": "80.5 lbs",
       "category": "Virtual",
       "abilities": [
-        "Trace",
-        "Download"
+        {
+          "name": "Trace",
+          "description": "When it enters a battle, the Pokémon copies an opposing Pokémon's Ability."
+        },
+        {
+          "name": "Download",
+          "description": "The Pokémon compares an opposing Pokémon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3696,9 +3733,16 @@
       "weight": "16.5 lbs",
       "category": "Spiral",
       "abilities": [
-        "Shell Armor",
-        "Swift Swim"
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Water"
@@ -3714,14 +3758,21 @@
       "id": 139,
       "name": "Omastar",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
-      "description": "Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.",
+      "description": "Weighed down by a large and heavy shell, Omastar couldn't move very fast. Some say it went extinct because it was unable to catch food.",
       "height": "3' 03\"",
       "weight": "77.2 lbs",
       "category": "Spiral",
       "abilities": [
-        "Shell Armor",
-        "Swift Swim"
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Water"
@@ -3742,9 +3793,16 @@
       "weight": "25.4 lbs",
       "category": "Shellfish",
       "abilities": [
-        "Swift Swim",
-        "Battle Armor"
+        {
+          "name": "Battle Armor",
+          "description": "Hard armor protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Water"
