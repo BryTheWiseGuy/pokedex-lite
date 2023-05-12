@@ -3290,9 +3290,16 @@
       "weight": "176.4 lbs",
       "category": "Mysterious",
       "abilities": [
-        "Natural Cure",
-        "Illuminate"
+        {
+          "name": "Natural Cute",
+          "description": "The Pokémon's status conditions are cured when it switches out."
+        },
+        {
+          "name": "Illuminate",
+          "description": "Raises the likelihood of meeting wild Pokémon by illuminating the surroundings."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Psychic"
@@ -3314,9 +3321,16 @@
       "weight": "120.2 lbs",
       "category": "Barrier",
       "abilities": [
-        "Soundproof",
-        "Filter"
+        {
+          "name": "Soundproof",
+          "description": "Soundproofing gives the Pokémon full immunity to all sound-based moves."
+        },
+        {
+          "name": "Filter",
+          "description": "Reduces the power of supereffective attacks that hit the Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic",
         "Fairy"
@@ -3336,9 +3350,16 @@
       "weight": "123.5 lbs",
       "category": "Mantis",
       "abilities": [
-        "Swarm",
-        "Technician"
+        {
+          "name": "Swarm",
+          "description": "Powers up Bug-type moves when the Pokémon's HP is low."
+        },
+        {
+          "name": "Technician",
+          "description": "Powers up weak moves so the Pokémon can deal more damage with them."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug",
         "Flying"
@@ -3360,9 +3381,16 @@
       "weight": "89.5 lbs",
       "category": "Human Shape",
       "abilities": [
-        "Oblivious",
-        "Forewarn"
+        {
+          "name": "Oblivious",
+          "description": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
+        },
+        {
+          "name": "Forewarn",
+          "description": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ice",
         "Psychic"
@@ -3385,8 +3413,12 @@
       "weight": "66.1 lbs",
       "category": "Electric",
       "abilities": [
-        "Static"
+        {
+          "name": "Static",
+          "description": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric"
       ],
@@ -3403,8 +3435,12 @@
       "weight": "98.1 lbs",
       "category": "Spitfire",
       "abilities": [
-        "Flame Body"
+        {
+          "name": "Flame Body",
+          "description": "Contact with the Pokémon may burn the attacker."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fire"
       ],
@@ -3423,9 +3459,16 @@
       "weight": "121.3 lbs",
       "category": "Stag Beetle",
       "abilities": [
-        "Hyper Cutter",
-        "Mold Breaker"
+        {
+          "name": "Hyper Cutter",
+          "description": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat."
+        },
+        {
+          "name": "Mold Breaker",
+          "description": "The Pokémon's moves are unimpeded by the Ability of the target."
+        }
       ],
+      "favorited": false,
       "type": [
         "Bug"
       ],
@@ -3444,9 +3487,16 @@
       "weight": "194.9 lbs",
       "category": "Wild Bull",
       "abilities": [
-        "Intimidate",
-        "Anger Point"
+        {
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+        },
+        {
+          "name": "Anger Point",
+          "description": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3463,8 +3513,12 @@
       "weight": "22.0 lbs",
       "category": "Fish",
       "abilities": [
-        "Swift Swim"
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -3482,8 +3536,12 @@
       "weight": "518.1 lbs",
       "category": "Atrocious",
       "abilities": [
-        "Intimidate"
+        {
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Flying"
