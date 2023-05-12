@@ -400,6 +400,31 @@ body {
 }
 
 
+/* The below CSS is W.I.P for a future new pokemon submission form
+
+#newPokemonContainer {
+  text-align: center;
+  left: 0%;
+  position: absolute;
+  top: 0%;
+  height: 20%;
+  width: 20%;
+}
+
+.pokemonFormInput {
+  margin-bottom: 5px;
+}
+
+#checkboxContainers {
+  display: flex;
+  flex-direction: row;
+}
+
+#checkboxContainers div {
+  margin: 3%;
+} */
+
+
 /* Pokemon Type/Weakness Button Styling Below */
 
 #pokemonType {

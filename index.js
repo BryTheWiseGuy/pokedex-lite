@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     getCollectedPokemon();
+    handleTypeCheckbox();
+    handleWeaknessCheckbox();
+
     fetch('http://localhost:3000/pokemon')
     .then(res => res.json())
     .then(data => {
@@ -82,11 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
     }
-
     
     //=> Adds the currently selected pokemon's card to the collection interface, as well as adds it to the "collection" root within index.json;
     function addToPokemonCollection(data) {
-        let highestId = Math.max(...data.map(pokemon => pokemon.id));
+        let highestId = 1008;
         let interface = document.querySelector('#collectionInterface');
         let selectedPokemon = document.querySelector('#pokemonSelect').value;
         data.forEach(pokemon => {
@@ -322,4 +324,44 @@ document.addEventListener('DOMContentLoaded', () => {
             originalCard.removeChild(originalCard.firstChild);
         }
     }
+
+    //=> The below code is W.I.P code for a new pokemon submission form <=//
+
+    // function handleTypeCheckbox() {
+    //     let types = ['Grass', 'Fire', 'Water', 'Electric', 'Normal', 'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel', 'Psychic', 'Ice', 'Dragon', 'Dark', 'Fairy'];
+    //     for (let i = 0; i < types.length; i++) {
+    //         let typeLabel = document.createElement('label');
+    //         let typeInput = document.createElement('input');
+    //         let lineBreak = document.createElement('br');
+    //         let typeContainer = document.querySelector('#pokemonTypeContainer');
+    //         typeLabel.for = `${types[i]}`
+    //         typeLabel.innerText = `${types[i]}`
+    //         typeInput.id = `${types[i]}`;
+    //         typeInput.type = 'checkbox';
+    //         typeInput.name = `${types[i]}`;
+    //         typeInput.value = `${types[i]}`;
+    //         typeContainer.appendChild(typeLabel);
+    //         typeContainer.appendChild(typeInput);
+    //         typeContainer.appendChild(lineBreak);
+    //     }
+    // }
+
+    // function handleWeaknessCheckbox() {
+    //     let weakness = ['Grass', 'Fire', 'Water', 'Electric', 'Normal', 'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel', 'Psychic', 'Ice', 'Dragon', 'Dark', 'Fairy'];
+    //     for (let i = 0; i < weakness.length; i++) {
+    //         let weaknessLabel = document.createElement('label');
+    //         let weaknessInput = document.createElement('input');
+    //         let lineBreak = document.createElement('br');
+    //         let weaknessContainer = document.querySelector('#pokemonWeaknessContainer');
+    //         weaknessLabel.for = `${weakness[i]}`
+    //         weaknessLabel.innerText = `${weakness[i]}`
+    //         weaknessInput.id = `${weakness[i]}`;
+    //         weaknessInput.type = 'checkbox';
+    //         weaknessInput.name = `${weakness[i]}`;
+    //         weaknessInput.value = `${weakness[i]}`;
+    //         weaknessContainer.appendChild(weaknessLabel);
+    //         weaknessContainer.appendChild(weaknessInput);
+    //         weaknessContainer.appendChild(lineBreak);
+    //     }
+    // }
 })
