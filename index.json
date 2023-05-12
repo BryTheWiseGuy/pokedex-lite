@@ -2430,9 +2430,16 @@
       "weight": "8.8 lbs",
       "category": "Bivalve",
       "abilities": [
-        "Shell Armor",
-        "Skill Link"
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Skill Link",
+          "description": "Maximizes the number of times multistrike moves hit."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -2450,9 +2457,16 @@
       "weight": "292.1 lbs",
       "category": "Bivalve",
       "abilities": [
-        "Shell Armor",
-        "Skill Link"
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Skill Link",
+          "description": "Maximizes the number of times multistrike moves hit."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water",
         "Ice"
@@ -2473,8 +2487,12 @@
       "weight": "0.2 lbs",
       "category": "Gas",
       "abilities": [
-        "Levitate"
+        {
+          "name": "Levitate",
+          "description": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ghost",
         "Poison"
@@ -2495,8 +2513,12 @@
       "weight": "0.2 lbs",
       "category": "Gas",
       "abilities": [
-        "Levitate"
+        {
+          "name": "Levitate",
+          "description": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ghost",
         "Poison"
@@ -2517,8 +2539,12 @@
       "weight": "89.3 lbs",
       "category": "Shadow",
       "abilities": [
-        "Cursed Body"
+        {
+          "name": "Cursed Body",
+          "description": "May disable a move that has dealt damage to the Pokémon."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ghost",
         "Poison"
@@ -2539,9 +2565,16 @@
       "weight": "463.0 lbs",
       "category": "Rock Snake",
       "abilities": [
-        "Rock Head",
-        "Sturdy"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Sturdy",
+          "description": "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out."
+        }
       ],
+      "favorited": false,
       "type": [
         "Rock",
         "Ground"
@@ -2564,9 +2597,16 @@
       "weight": "71.4 lbs",
       "category": "Hypnosis",
       "abilities": [
-        "Insomnia",
-        "Forewarn"
+        {
+          "name": "Insomnia",
+          "description": "The Pokémon's insomnia prevents it from falling asleep."
+        },
+        {
+          "name": "Forewarn",
+          "description": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
@@ -2585,9 +2625,16 @@
       "weight": "166.7 lbs",
       "category": "Hypnosis",
       "abilities": [
-        "Insomnia",
-        "Forewarn"
+        {
+          "name": "Insomnia",
+          "description": "The Pokémon's insomnia prevents it from falling asleep."
+        },
+        {
+          "name": "Forewarn",
+          "description": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has."
+        }
       ],
+      "favorited": false,
       "type": [
         "Psychic"
       ],
@@ -2606,9 +2653,16 @@
       "weight": "14.3 lbs",
       "category": "River Crab",
       "abilities": [
-        "Shell Armor",
-        "Hyper Cutter"
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Hyper Cutter",
+          "description": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -2626,9 +2680,16 @@
       "weight": "132.3 lbs",
       "category": "Pincer",
       "abilities": [
-        "Shell Armor",
-        "Hyper Cutter"
+        {
+          "name": "Shell Armor",
+          "description": "A hard shell protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Hyper Cutter",
+          "description": "The Pokémon's prized, mighty pincers prevent other Pokémon from lowering its Attack stat."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
