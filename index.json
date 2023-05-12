@@ -2707,9 +2707,16 @@
       "weight": "22.9 lbs",
       "category": "Ball",
       "abilities": [
-        "Static",
-        "Soundproof"
+        {
+          "name": "Static",
+          "description": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+        },
+        {
+          "name": "Soundproof",
+          "description": "Soundproofing gives the Pokémon full immunity to all sound-based moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric"
       ],
@@ -2726,9 +2733,16 @@
       "weight": "146.8 lbs",
       "category": "Ball",
       "abilities": [
-        "Static",
-        "Soundproof"
+        {
+          "name": "Static",
+          "description": "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it."
+        },
+        {
+          "name": "Soundproof",
+          "description": "Soundproofing gives the Pokémon full immunity to all sound-based moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Electric"
       ],
@@ -2740,13 +2754,17 @@
       "id": 102,
       "name": "Exeggcute",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
-      "description": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+      "description": "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
       "height": "1' 04\"",
       "weight": "5.5 lbs",
       "category": "Egg",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Psychic"
@@ -2770,8 +2788,12 @@
       "weight": "264.6 lbs",
       "category": "Coconut",
       "abilities": [
-        "Chlorophyll"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass",
         "Psychic"
@@ -2795,9 +2817,16 @@
       "weight": "14.3 lbs",
       "category": "Lonely",
       "abilities": [
-        "Rock Head",
-        "Lightening Rod"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground"
       ],
@@ -2816,9 +2845,16 @@
       "weight": "99.2 lbs",
       "category": "Bone Keeper",
       "abilities": [
-        "Rock Head",
-        "Lightening Rod"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground"
       ],
@@ -2837,9 +2873,16 @@
       "weight": "109.8 lbs",
       "category": "Kicking",
       "abilities": [
-        "Limber",
-        "Reckless"
+        {
+          "name": "Limber",
+          "description": "The Pokémon's limber body prevents it from being paralyzed."
+        },
+        {
+          "name": "Reckless",
+          "description": "Powers up moves that have recoil damage."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -2858,9 +2901,16 @@
       "weight": "110.7 lbs",
       "category": "Punching",
       "abilities": [
-        "Keen Eye",
-        "Iron Fist"
+        {
+          "name": "Keen Eye",
+          "description": "The Pokémon's keen eyes prevent its accuracy from being lowered."
+        },
+        {
+          "name": "Iron Fist",
+          "description": "Powers up punching moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Fighting"
       ],
@@ -2879,9 +2929,16 @@
       "weight": "144.4 lbs",
       "category": "Licking",
       "abilities": [
-        "Oblivious",
-        "Own Tempo"
+        {
+          "name": "Oblivious",
+          "description": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
+        },
+        {
+          "name": "Own Tempe",
+          "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -2898,9 +2955,16 @@
       "weight": "2.2 lbs",
       "category": "Poison Gas",
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        {
+          "name": "Levitate",
+          "description": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves."
+        },
+        {
+          "name": "Neutralizing Gas",
+          "description": "While the Pokémon is in the battle, the effects of all other Pokémon's Abilities will be nullified or will not be triggered."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
@@ -2913,14 +2977,21 @@
       "id": 110,
       "name": "Weezing",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
-      "description": "It mixes gases between its two bodies. It’s said that these Pokémon were seen all over the Galar region back in the day.",
+      "description": "It mixes gases between its two bodies. It's said that these Pokémon were seen all over the Galar region back in the day.",
       "height": "3' 11\"",
       "weight": "20.9 lbs",
       "category": "Poison Gas",
       "abilities": [
-        "Levitate",
-        "Neutralizing Gas"
+        {
+          "name": "Levitate",
+          "description": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves."
+        },
+        {
+          "name": "Neutralizing Gas",
+          "description": "While the Pokémon is in the battle, the effects of all other Pokémon's Abilities will be nullified or will not be triggered."
+        }
       ],
+      "favorited": false,
       "type": [
         "Poison"
       ],
