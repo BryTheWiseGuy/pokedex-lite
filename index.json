@@ -3009,9 +3009,16 @@
       "weight": "253.5 lbs",
       "category": "Spikes",
       "abilities": [
-        "Rock Head",
-        "Lightening Rod"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground",
         "Rock"
@@ -3034,9 +3041,16 @@
       "weight": "264.6 lbs",
       "category": "Drill",
       "abilities": [
-        "Rock Head",
-        "Lightening Rod"
+        {
+          "name": "Rock Head",
+          "description": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Lightning Rod",
+          "description": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+        }
       ],
+      "favorited": false,
       "type": [
         "Ground",
         "Rock"
@@ -3059,9 +3073,16 @@
       "weight": "76.3 lbs",
       "category": "Egg",
       "abilities": [
-        "Natural Cure",
-        "Serene Grace"
+        {
+          "name": "Natural Cure",
+          "description": "The Pokémon's status conditions are cured when it switches out."
+        },
+        {
+          "name": "Serence Grace",
+          "description": "Raises the likelihood of additional effects occurring when the Pokémon uses its moves."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3078,9 +3099,16 @@
       "weight": "77.2 lbs",
       "category": "Vine",
       "abilities": [
-        "Chlorophyll",
-        "Leaf Guard"
+        {
+          "name": "Chlorophyll",
+          "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        },
+        {
+          "name": "Leaf Guard",
+          "description": "Prevents status conditions in harsh sunlight."
+        }
       ],
+      "favorited": false,
       "type": [
         "Grass"
       ],
@@ -3101,9 +3129,16 @@
       "weight": "176.4 lbs",
       "category": "Parent",
       "abilities": [
-        "Early Bird",
-        "Scrappy"
+        {
+          "name": "Early Bird",
+          "description": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+        },
+        {
+          "name": "Scrappy",
+          "description": "The Pokémon can hit Ghost-type Pokémon with Normal-type and Fighting-type moves. It is also unaffected by Intimidate."
+        }
       ],
+      "favorited": false,
       "type": [
         "Normal"
       ],
@@ -3120,9 +3155,16 @@
       "weight": "17.6 lbs",
       "category": "Dragon",
       "abilities": [
-        "Swift Swim",
-        "Sniper"
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        },
+        {
+          "name": "Sniper",
+          "description": "If the Pokémon's attack lands a critical hit, the attack is powered up even further."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -3140,9 +3182,16 @@
       "weight": "55.1 lbs",
       "category": "Dragon",
       "abilities": [
-        "Poison Point",
-        "Sniper"
+        {
+          "name": "Poison Point",
+          "description": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Sniper",
+          "description": "If the Pokémon's attack lands a critical hit, the attack is powered up even further."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -3160,9 +3209,16 @@
       "weight": "33.1 lbs",
       "category": "Goldfish",
       "abilities": [
-        "Swift Swim",
-        "Water Veil"
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        },
+        {
+          "name": "Water Veil",
+          "description": "The Pokémon's water veil prevents it from being burned."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -3180,9 +3236,16 @@
       "weight": "86.0 lbs",
       "category": "Goldfish",
       "abilities": [
-        "Swift Swim",
-        "Water Veil"
+        {
+          "name": "Swift Swim",
+          "description": "Boosts the Pokémon's Speed stat in rain."
+        },
+        {
+          "name": "Water Veil",
+          "description": "The Pokémon's water veil prevents it from being burned."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
@@ -3195,14 +3258,21 @@
       "id": 120,
       "name": "Staryu",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
-      "description": "If you visit a beach at the end of summer, you’ll be able to see groups of Staryu lighting up in a steady rhythm.",
+      "description": "If you visit a beach at the end of summer, you'll be able to see groups of Staryu lighting up in a steady rhythm.",
       "height": "2' 07\"",
       "weight": "76.1 lbs",
       "category": "Star Shape",
       "abilities": [
-        "Natural Cure",
-        "Illuminate"
+        {
+          "name": "Natural Cute",
+          "description": "The Pokémon's status conditions are cured when it switches out."
+        },
+        {
+          "name": "Illuminate",
+          "description": "Raises the likelihood of meeting wild Pokémon by illuminating the surroundings."
+        }
       ],
+      "favorited": false,
       "type": [
         "Water"
       ],
