@@ -21,6 +21,8 @@ In order to access this project, please fork your own version in the top right o
 
 Please ensure you have your JSON Server running in your desired directory before attempting to utilize this web application, as it will not pull any data into the webpage without it. After that, your first stop is going to be the dropdown menu: select any Pokémon from the drop down menu and click "Search." You should see that Pokémon's card alongside all relevant Pokémon stats. Hovering over the Pokémon's ability will display an overlay with an additional description of that specific ability. Step two is to click the "Add" button to add that Pokémon to your collection! Once the Pokémon has been added, you should see a direct change in the JSON file under the "collection" root. From here, you can click the heart icon to favorite the Pokémon, or if you would like the remove a Pokémon you can click "Remove" and then select Ok on the alert prompt. All changes made to the collection will be persisted on page refresh!
 
+![Pokedex.Lite GIF](Usage/pokedexlite.gif)
+
 ## Documentation
 
 For a high level overview of this projects original repository files, as well as an overview of how to use the web application, please go to https://www.youtube.com/watch?v=49jjiAZRRHM
