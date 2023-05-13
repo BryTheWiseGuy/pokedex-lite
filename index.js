@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     getCollectedPokemon();
-    handleTypeCheckbox();
-    handleWeaknessCheckbox();
 
     fetch('http://localhost:3000/pokemon')
     .then(res => res.json())

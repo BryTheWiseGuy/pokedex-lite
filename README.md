@@ -10,27 +10,30 @@ Welcome to Pokédex.Lite! This single page application is a rendition of a Poké
 - [Usage](#usage)
 - [Documentation](#documentation)
 - [Credits](#credits)
+- [Changelog](#changelog)
 - [Support](#support)
 
 ## Installation
 
-In order to access this project, please fork your own version in the top right of the GitHub page. Once you've forked a copy, please clone the repository to your own directory. All data in this projects JSON is unique to this project, and it does not pull data from an API. As such, anyone wanting to view this project in its entirety will need JSON Server installed into their desired directory in order to render data from index.JSON to the DOM. Once JSON Server is installed and running, open index.html in your web browser and play around with the app! It is recommended to view this app in a full screen window, as CSS compatibility for different screen and window resolutions has not been implemented at this time.
+In order to access this project, please fork your own version in the top right of the GitHub Repository. Once you've forked a copy, please clone the repository to your own directory. All data in this projects JSON is unique to this project, and it does not pull data from an API. As such, anyone wanting to view this project in its entirety will need JSON Server installed into their desired directory in order to render data from the index.json file to the DOM. Once JSON Server is installed and running, open index.html in your web browser and play around with the app! It is recommended to view this app in a full screen window, as CSS compatibility for different screen resolutions has not been implemented at this time.
 
 ## Usage
 
-Instructions on how to use the project, along with code snippets, examples, or screenshots to illustrate common usage scenarios.
+Please ensure you have your JSON Server running in your desired directory before attempting to utilize this web application, as it will not pull any data into the webpage without it. After that, your first stop is going to be the dropdown menu: select any Pokémon from the drop down menu and click "Search." You should see that Pokémon's card alongside all relevant Pokémon stats. Hovering over the Pokémon's ability will display an overlay with an additional description of that specific ability. Step two is to click the "Add" button to add that Pokémon to your collection! Once the Pokémon has been added, you should see a direct change in the JSON file under the "collection" root. From here, you can click the heart icon to favorite the Pokémon, or if you would like the remove a Pokémon you can click "Remove" and then select Ok on the alert prompt. All changes made to the collection will be persisted on page refresh!
 
 ## Documentation
 
-Provide links or instructions on how to access additional documentation, such as API references, user guides, or tutorials.
+For a high level overview of this projects original repository files, as well as an overview of how to use the web application, please go to https://www.youtube.com/watch?v=49jjiAZRRHM
 
 ## Contributing
 
-Explain how others can contribute to your project, including guidelines for bug reports, feature requests, and pull requests. Specify any coding conventions or branch strategies to follow.
+Anyone interested in this project is free to fork and clone their own copy, and submit changes or feature implementations to be approved by me. Please ensure all features are fully tested and debugged before submitting them for implementation.
 
 ## Credits
 
-Acknowledge and provide links to any external libraries, frameworks, or resources used in your project. Give credit to any works that inspired or served as a base for your project.
+All Pokémon images, stats, ability information, types, weaknesses, and descriptions were sourced from the official Pokémon website: https://www.pokemon.com/us/pokedex
+
+All other elements were sourced from Google Images. I do not own the rights to any images in this project and, as such, do not condone the use of this project for any monetary gain.
 
 ## Changelog
 
@@ -38,5 +41,4 @@ V.1.0.0 - Initial Version adds full functionality to the app, with opportunity t
 
 ## Support
 
-Let users know how they can seek support or get in touch with you, such as through an email address, discussion forum, or support ticketing system.
-Feel free to modify and customize the template according to your specific project requirements.
+If there are any questions regarding this project, please feel free to reach out to me via email at brythewiseguy@gmail.com

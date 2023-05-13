@@ -23,21 +23,13 @@ body {
   justify-content: center;
 }
 
-#pokedexLogo img {
-  position: fixed;
-  max-height: 300px;
-  max-width: 600px;
-  top: 7vh;
-  left: 33.75%;
-  size: 1%;
-}
-
 #liteLogo {
   position: absolute;
-  font-size: 108px;
+  font-size: 132px;
   color: white;
   top: 6.5vh;
-  left: 57.25%;
+  left: 50%;
+  transform: translateX(-50%);
   text-shadow: 0 0 5px #fff, 
              0 0 10px #fff, 
              0 0 15px #fff, 
